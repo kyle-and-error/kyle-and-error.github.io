@@ -258,6 +258,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-seo-tag (~> 2.1)
   tzinfo-data
 
 BUNDLED WITH
