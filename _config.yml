@@ -100,8 +100,38 @@ content:
   - title: Skills
     layout: list
     content:
-      -  layout: right
-         title: 
+      - title: Soft Skills
+        layout: text
+        content: |
+          - Detail Oriented
+          - Good verbal and written communicator
+          - Problem solver
+          - Adaptable and flexible
+          - Creative
+          - Teamwork
+            - Open to criticism/Good listener and learner
+            - Good teacher to a range of ages
+          - Research Skills
+            - Knows best sources for informations
+            - Keeps up to date for relevant communities and forums
+      - title: Practical Skills and Certifications
+        layout: text
+        content: |
+# Skils and Certifications</h2>
+              # <h3>Programming</h3></li>
+                # Certified and Extremely Proficient in</li>
+                  # Java | CodeAcademy</li>
+                  # JavaScript | CodeAcademy</li>
+                  # Ruby | CodeAcademy and LeWagon</li>
+                  # HTML | CodeAcademy and LeWagon</li>
+                  # CSS | CodeAcademy and LeWagon</li>
+                  # mySQL | LeWagon</li>
+                  # Ruby on Rails | LeWagon</li>
+                # Extremely Proficient in</li>
+                  # Python 3</li>
+                  # GameMaker Studio 2</li>
+                  # Git, Bash and ZSH/Oh My ZSH</li>
+
 
   - title: A Little More About Me
     layout: text
