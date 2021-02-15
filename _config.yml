@@ -97,46 +97,48 @@ content:
         description: | # this will include new lines to allow paragraphs
           This game is currently being developed in Game Maker Studio 2
 
-  - title: Skills
-    layout: list
-    content:
-      - title: Soft Skills
-        layout: text
-        content: |
-          - Detail Oriented
-          - Good verbal and written communicator
-          - Problem solver
-          - Adaptable and flexible
-          - Creative
-          - Teamwork
-            - Open to criticism/Good listener and learner
-            - Good teacher to a range of ages
-          - Research Skills
-            - Knows best sources for informations
-            - Keeps up to date for relevant communities and forums
-      - title: Practical Skills and Certifications
-        layout: text
-        content: |
-# Skils and Certifications</h2>
-              # <h3>Programming</h3></li>
-                # Certified and Extremely Proficient in</li>
-                  # Java | CodeAcademy</li>
-                  # JavaScript | CodeAcademy</li>
-                  # Ruby | CodeAcademy and LeWagon</li>
-                  # HTML | CodeAcademy and LeWagon</li>
-                  # CSS | CodeAcademy and LeWagon</li>
-                  # mySQL | LeWagon</li>
-                  # Ruby on Rails | LeWagon</li>
-                # Extremely Proficient in</li>
-                  # Python 3</li>
-                  # GameMaker Studio 2</li>
-                  # Git, Bash and ZSH/Oh My ZSH</li>
+  - title: Practical Skills and Certifications
+    layout: text
+    content: |
+      - Codecademy Certifications
+        - Java
+        - JavaScript
+        - Ruby
+        - HTML
+        - CSS
+        - mySQL
+      - LeWagon Certification
+        - Full-Stack Web Development including skills such as
+          - Ruby on Rails
+          - HTML
+          - CSS
+          - Relational Databases and Database Management
+      - Extremely Proficient in
+        - Python 3
+        - GameMaker Studio 2
+        - Git, Bash and ZSH/Oh My ZSH
 
+      Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
+
+  - title: Soft Skills
+    layout: text
+    content: |
+      - Detail Oriented
+      - Good verbal and written communicator
+      - Problem solver
+      - Adaptable and flexible
+          - Creative
+      - Teamwork
+          - Open to criticism/Good listener and learner
+          - Good teacher to a range of ages
+      - Research Skills
+          - Knows best sources for informations
+          - Keeps up to date for relevant communities and forums
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in game and web development, some of my other interests and hobbies are:
       - Ultimate Frisbee
       - Gaming
       - Working out
@@ -144,12 +146,10 @@ content:
       Look at this cool image  
       ![Trees](images/landscape-trees.jpg "Trees")
 
-  - title: Don't Like This Resume?
-    layout: text
+  - layout: left
+    title: Don't Like This Resume?
+    link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
     link_text: Download a PDF here
-    additional_links: 
-      - title: PDF Resume
-        url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
 
 # Footer
 footer_show_references: true
