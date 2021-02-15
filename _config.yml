@@ -149,14 +149,16 @@ content:
   - layout: list
     title: Don't Like This Resume?
     content: 
-      - layout: top-middle
+      - layout: left
         title: PDF version of my resume
         link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
         link_text: Download
+        description: |
+          <iframe src="https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true"></iframe>
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: 2408889685 References on request
 
 # Build settings
 remote_theme: sproogen/resume-theme
