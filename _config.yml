@@ -146,10 +146,13 @@ content:
       Look at this cool image  
       ![Trees](images/landscape-trees.jpg "Trees")
 
-  - layout: left
+  - layout: list
     title: Don't Like This Resume?
-    link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
-    link_text: Download a PDF here
+    content: 
+      - layout: top-middle
+        title: PDF version of my resume
+        link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
+        link_text: Download
 
 # Footer
 footer_show_references: true
