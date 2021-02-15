@@ -22,7 +22,7 @@ github_username:  kyle-and-error
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: kyle_and_error
-# linkedin_username: jameswgrant
+linkedin_username: kyle-cho-2000
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,9 +31,9 @@ instagram_username: kyle_and_error
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: torre.com
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://torre.co/en/kcho
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -107,20 +107,26 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      - Ultimate Frisbee
       - Gaming
-      - Knittings
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Working out
 
       Look at this cool image  
-      ![Trees](/kyle-and-error.github.io/images/landscape-trees.jpg "Trees")
+      ![Trees](images/landscape-trees.jpg "Trees")
+
+  - title: Don't Like This Resume?
+    layout: text
+    link_text: Download a PDF here
+    additional_links: 
+      - title: PDF Resume
+        url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: kyle-and-error/kyle-and-error.github.io
+remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
