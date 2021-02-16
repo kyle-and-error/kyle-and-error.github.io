@@ -1,7 +1,3 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
-
 body {
   background-color: #BCD2DD;
   font-family: 'DM Sans', sans-serif;
@@ -41,10 +37,6 @@ a {
   border-radius: 6px;
   margin: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
-}
-
-.img-circle {
-  border-radius: 50%
 }
 
 .hori-card {
@@ -89,4 +81,3 @@ a {
   list-style: none;
   padding-left: 0px
 }
-s
