@@ -39,10 +39,6 @@ a {
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
 }
 
-.img-circle {
-  border-radius: 50%
-}
-
 .hori-card {
   background: white;
   padding: 30px;
