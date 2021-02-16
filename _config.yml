@@ -8,9 +8,7 @@ version: 2
 # Personal info
 name: Kyle Cho
 title: Web App Developer and Amateur Game Designer
-email1: kylescho99@gmail.com
-email2: kcho@elon.edu
-
+email: kylescho99@gmail.com
 website: www.kyle-and-error.github.io
 
 # Dark Mode (true/false/never)
