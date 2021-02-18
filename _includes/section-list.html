@@ -2,6 +2,13 @@
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4>{{ item.title }}</h4>
+
+      {%- if item.image -%}
+        <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+          <span class="profile-img" style="background-image: url({{ item.image | relative_url }})"></span>
+        </div>
+      {%- endif -%}
+
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
@@ -24,6 +31,11 @@
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
       {{ item.description | strip | markdownify }}
+      {%- if item.image -%}
+        <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+          <iframe src="{{ item.iframe | relative_url}}"></iframe>
+        </div>
+      {%- endif -%}
     </div>
   </div>
 {% endfor %}

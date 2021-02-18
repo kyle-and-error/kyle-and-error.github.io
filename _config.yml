@@ -47,6 +47,7 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
+image: images/bus.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Kyle and I'm a Computer Science student at Elon University. I'm extremely interested in the creative potential of programming in both games and applications. I'm proficient in GameMaker Studio 2, mySQL, and a number of Object Oriented Programming languages. I am a Le Wagon Alumni (Batch #269), and plan to graduate from Elon University in 2023.
 
@@ -57,6 +58,7 @@ content:
     content:
       - layout: left
         title: Elon University
+        image: images/elon.jpg
         caption: 2018 - Current
         sub_title: BS Computer Science
         quote: >
@@ -64,7 +66,7 @@ content:
         # description: | # this will include new lines to allow paragraphs
       - layout: left
         title: LeWagon
-        icon: images/bus.png
+        image: images/bus.png
         caption: August 2019
         sub_title: Full-Stack Web Development Bootcamp
         quote: >
@@ -114,7 +116,8 @@ content:
         - HTML
         - CSS
         - mySQL
-      - LeWagon Certification
+      - LeWagon Certification 
+      <iframe src="images/fullstack-certificate.pdf"></iframe>
         - Full-Stack Web Development including skills such as
           - Ruby on Rails
           - HTML
@@ -160,8 +163,7 @@ content:
         title: PDF version of my resume
         link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
         link_text: Download
-        description: |
-          <iframe src="https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true"></iframe>
+        iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
 
 # Footer
 footer_show_references: true
