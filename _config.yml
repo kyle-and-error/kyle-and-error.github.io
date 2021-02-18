@@ -63,6 +63,7 @@ content:
         image: images/elon.jpg
         caption: 2018 - Current
         sub_title: BS Computer Science
+        location: Elon, NC
         quote: >
           Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
         # description: | # this will include new lines to allow paragraphs
@@ -71,9 +72,17 @@ content:
         image: images/bus.png
         caption: August 2019
         sub_title: Full-Stack Web Development Bootcamp
+        location: Oslo, Norway
         quote: >
           Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.
-      
+      layout: left
+        title: Codecademy Pro
+        caption: Current
+        sub_title: Private Online Instruction
+        location: Online
+        quote: >
+          Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS.
+
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -109,6 +118,8 @@ content:
           This game is currently being developed in Game Maker Studio 2
 
   - title: Skills and Certifications # Title for the section
+    quote: >
+      Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
     layout: list # Type of content section (list/text)
     content:
       - layout: list
@@ -116,12 +127,17 @@ content:
         link_text: My Codecademy Profile
         link: https://www.codecademy.com/profiles/kyle_and_error
         description: | # this will include new lines to allow paragraphs
+            Completed Courses
+            - [Javascript](https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e "Javascript")
+            - [Ruby](https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd "Ruby")
+            - [HTML](https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7 "HTML")
+            - [CSS](https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05 "CSS")
+            
+            In Progress Courses
+            - Python
             - Java
-            - JavaScript
-            - Ruby
-            - HTML
-            - CSS
-            - mySQL
+            - MySQL
+            - Vue.js
 
       - layout: left
         title: LeWagon Full Stack Certification
@@ -139,8 +155,6 @@ content:
             - Python 3
             - GameMaker Studio 2
             - Git, Bash and ZSH/Oh My ZSH
-
-            Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
 
       - layout: left
         title: Soft Skills

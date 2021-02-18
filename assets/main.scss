@@ -3,3 +3,10 @@
 ---
 
 @import 'modern-resume-theme';
+
+iframe{
+	margin: 0;
+	padding: 0;
+	border: none;
+	-webkit-border-radius: 12px;
+}
