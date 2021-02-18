@@ -1,13 +1,12 @@
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+    {%- if item.image -%}
+      <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
+        <span class="img" style="background-image: url({{ item.image | relative_url }})"></span>
+      </div>
+    {%- endif -%}
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4>{{ item.title }}</h4>
-
-      {%- if item.image -%}
-        <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-          <span class="profile-img" style="background-image: url({{ item.image | relative_url }})"></span>
-        </div>
-      {%- endif -%}
 
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
@@ -26,18 +25,27 @@
         {% endfor %}
       </p>
     </div>
+
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-      {%- if item.quote -%}
-        <p class="quote">{{ item.quote }}</p>
-      {%- endif -%}
+    {%- if item.iframe -%}
+      <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
 
-      {{ item.description | strip | markdownify }}
+        {{ item.description | strip | markdownify }}
+      </div>
 
-      {%- if item.iframe -%}
-        <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-          <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling: no></iframe>
-        </div>
-      {%- endif -%}
+      <div class="col-xs-12 col-sm-4 col-md-5 no-print">
+        <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling="no"></iframe>
+      </div>
+    {%- else -%}
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+
+        {{ item.description | strip | markdownify }}
+    {%- endif -%}
     </div>
   </div>
 {% endfor %}
