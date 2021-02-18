@@ -40,6 +40,18 @@
   background-repeat: repeat, no-repeat;
 }
 
+.img {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+}
+
 .into-text-1 {
   margin-top: 30px;
 }
