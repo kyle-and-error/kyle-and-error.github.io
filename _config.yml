@@ -63,7 +63,7 @@ content:
         image: images/elon.jpg
         caption: 2018 - Current
         sub_title: BS Computer Science
-        location: Elon, NC
+        # location: Elon, NC
         quote: >
           Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
         # description: | # this will include new lines to allow paragraphs
@@ -72,14 +72,14 @@ content:
         image: images/bus.png
         caption: August 2019
         sub_title: Full-Stack Web Development Bootcamp
-        location: Oslo, Norway
+        # location: Oslo, Norway
         quote: >
           Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.
-      layout: left
+      - layout: left
         title: Codecademy Pro
         caption: Current
         sub_title: Private Online Instruction
-        location: Online
+        # location: Online
         quote: >
           Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS.
 
