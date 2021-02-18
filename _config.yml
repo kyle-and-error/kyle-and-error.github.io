@@ -9,6 +9,8 @@ version: 2
 name: Kyle Cho
 title: Web App Developer and Amateur Game Designer
 email: kylescho99@gmail.com
+email2: kcho@elon.edu
+phone: +1(240) 888-9685
 website: www.kyle-and-error.github.io
 
 # Dark Mode (true/false/never)
@@ -79,13 +81,13 @@ content:
         title: Freelance Tutor
         caption: March 2018 - Present
         description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects for high schoolers to prepare them for the SAT or ACT. 
+            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
       - layout: left
         title: Assistant Swim Coach
         sub_title: Carderock Springs Swim and Tennis Club
         caption: June 2017 - May 2018
         description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects for high schoolers to prepare them for the SAT or ACT. 
+            I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
 
 
   - title: Projects # Title for the section
@@ -106,44 +108,53 @@ content:
         description: | # this will include new lines to allow paragraphs
           This game is currently being developed in Game Maker Studio 2
 
-  - title: Practical Skills and Certifications
-    layout: text
-    content: |
-      - Codecademy Certifications
-        - Java
-        - JavaScript
-        - Ruby
-        - HTML
-        - CSS
-        - mySQL
-      - LeWagon Certification 
-      <iframe src="images/fullstack-certificate.pdf"></iframe>
-        - Full-Stack Web Development including skills such as
-          - Ruby on Rails
-          - HTML
-          - CSS
-          - Relational Databases and Database Management
-      - Extremely Proficient in
-        - Python 3
-        - GameMaker Studio 2
-        - Git, Bash and ZSH/Oh My ZSH
+  - title: Skills and Certifications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: list
+        title: Codecademy Courses
+        link_text: My Codecademy Profile
+        link: https://www.codecademy.com/profiles/kyle_and_error
+        description: | # this will include new lines to allow paragraphs
+            - Java
+            - JavaScript
+            - Ruby
+            - HTML
+            - CSS
+            - mySQL
 
-      Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
+      - layout: left
+        title: LeWagon Full Stack Certification
+        iframe: images/fullstack-certificate.pdf
+        description: | # this will include new lines to allow paragraphs
+            - Full-Stack Web Development including skills such as
+                - Ruby on Rails
+                - HTML
+                - CSS
+                - Relational Databases and Database Management
 
-  - title: Soft Skills
-    layout: text
-    content: |
-      - Detail Oriented
-      - Good verbal and written communicator
-      - Problem solver
-      - Adaptable and flexible
-          - Creative
-      - Teamwork
-          - Open to criticism/Good listener and learner
-          - Good teacher to a range of ages
-      - Research Skills
-          - Knows best sources for informations
-          - Keeps up to date for relevant communities and forums
+      - layout: left
+        title: Extremely Proficient in
+        description: | # this will include new lines to allow paragraphs
+            - Python 3
+            - GameMaker Studio 2
+            - Git, Bash and ZSH/Oh My ZSH
+
+            Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
+
+      - layout: left
+        title: Soft Skills
+        description: | # this will include new lines to allow paragraphs        - Detail Oriented
+            - Good verbal and written communicator
+            - Problem solver
+            - Adaptable and flexible
+                - Creative
+            - Teamwork
+                - Open to criticism/Good listener and learner
+                - Good teacher to a range of ages
+            - Research Skills
+                - Knows best sources for informations
+                - Keeps up to date for relevant communities and forums
 
   - title: A Little More About Me
     layout: text
@@ -167,7 +178,7 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: +1(240)-888-9685 - References on request
+references_title: References on request
 
 
 sass:

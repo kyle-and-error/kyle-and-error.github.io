@@ -30,8 +30,10 @@
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
+
       {{ item.description | strip | markdownify }}
-      {%- if item.image -%}
+
+      {%- if item.iframe -%}
         <div class="col-xs-12 col-sm-4 col-md-3 no-print">
           <iframe src="{{ item.iframe | relative_url}}"></iframe>
         </div>

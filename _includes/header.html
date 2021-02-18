@@ -111,6 +111,11 @@
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.email2 -%}
+        <p>
+          {{ site.email_title | default: "Secondary Email" }}: <a href="mailto:{{ site.email2 }}" target="_blank">{{ site.email2 | escape }}</a>
+        </p>
+      {%- endif -%}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
