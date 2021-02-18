@@ -35,7 +35,7 @@
 
       {%- if item.iframe -%}
         <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-          <iframe src="{{ item.iframe | relative_url}}"></iframe>
+          <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling: no></iframe>
         </div>
       {%- endif -%}
     </div>
