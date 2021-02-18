@@ -9,6 +9,8 @@ version: 2
 name: Kyle Cho
 title: Web App Developer and Amateur Game Designer
 email: kylescho99@gmail.com
+email2: kcho@elon.edu
+phone: +1(240) 888-9685
 website: www.kyle-and-error.github.io
 
 # Dark Mode (true/false/never)
@@ -47,6 +49,7 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
+image: images/bus.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Kyle and I'm a Computer Science student at Elon University. I'm extremely interested in the creative potential of programming in both games and applications. I'm proficient in GameMaker Studio 2, mySQL, and a number of Object Oriented Programming languages. I am a Le Wagon Alumni (Batch #269), and plan to graduate from Elon University in 2023.
 
@@ -57,11 +60,19 @@ content:
     content:
       - layout: left
         title: Elon University
+        image: images/elon.jpg
         caption: 2018 - Current
-        sub_title: BSc Computer Science
+        sub_title: BS Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
+          Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
+        # description: | # this will include new lines to allow paragraphs
+      - layout: left
+        title: LeWagon
+        image: images/bus.png
+        caption: August 2019
+        sub_title: Full-Stack Web Development Bootcamp
+        quote: >
+          Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.
       
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -70,13 +81,13 @@ content:
         title: Freelance Tutor
         caption: March 2018 - Present
         description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects for high schoolers to prepare them for the SAT or ACT. 
+            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
       - layout: left
         title: Assistant Swim Coach
         sub_title: Carderock Springs Swim and Tennis Club
         caption: June 2017 - May 2018
         description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects for high schoolers to prepare them for the SAT or ACT. 
+            I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
 
 
   - title: Projects # Title for the section
@@ -97,33 +108,77 @@ content:
         description: | # this will include new lines to allow paragraphs
           This game is currently being developed in Game Maker Studio 2
 
-  - title: Skills
-    layout: list
+  - title: Skills and Certifications # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      -  layout: right
-         title: 
+      - layout: list
+        title: Codecademy Courses
+        link_text: My Codecademy Profile
+        link: https://www.codecademy.com/profiles/kyle_and_error
+        description: | # this will include new lines to allow paragraphs
+            - Java
+            - JavaScript
+            - Ruby
+            - HTML
+            - CSS
+            - mySQL
+
+      - layout: left
+        title: LeWagon Full Stack Certification
+        iframe: images/fullstack-certificate.pdf
+        description: | # this will include new lines to allow paragraphs
+            - Full-Stack Web Development including skills such as
+                - Ruby on Rails
+                - HTML
+                - CSS
+                - Relational Databases and Database Management
+
+      - layout: left
+        title: Extremely Proficient in
+        description: | # this will include new lines to allow paragraphs
+            - Python 3
+            - GameMaker Studio 2
+            - Git, Bash and ZSH/Oh My ZSH
+
+            Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
+
+      - layout: left
+        title: Soft Skills
+        description: | # this will include new lines to allow paragraphs        - Detail Oriented
+            - Good verbal and written communicator
+            - Problem solver
+            - Adaptable and flexible
+                - Creative
+            - Teamwork
+                - Open to criticism/Good listener and learner
+                - Good teacher to a range of ages
+            - Research Skills
+                - Knows best sources for informations
+                - Keeps up to date for relevant communities and forums
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in game and web development, some of my other interests and hobbies are:
       - Ultimate Frisbee
       - Gaming
       - Working out
 
-      Look at this cool image  
-      ![Trees](images/landscape-trees.jpg "Trees")
+    # Look at this cool image  
+    # ![Trees](images/landscape-trees.jpg "Trees")
 
-  - title: Don't Like This Resume?
-    layout: text
-    link_text: Download a PDF here
-    additional_links: 
-      - title: PDF Resume
-        url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
+  - layout: list
+    title: Don't Like This Resume?
+    content: 
+      - layout: left
+        title: PDF version of my resume
+        link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
+        link_text: Download
+        iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request
 
 
 sass:
