@@ -15,20 +15,18 @@
       {%- endif -%}
 
       {%- include about.html -%}
-
-      {%- if site.version == 2 -%}
-        {% for section in site.content %}
-          <div class="container {{ section.layout }}-container">
-            <h3>{{ section.title }}</h3>
-            {%- if section.quote -%}
-            <p class ="quote">{{ section.quote }}</p>
-            {%- endif -%}
-            {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-          </div>
-        {% endfor %}
-      {% else %}
-        {%- include v1/default.html -%}
+      {%- if site.data.education.size > 0 -%}
+        {%- include v1/education.html -%}
       {%- endif -%}
+      {% for section in site.content %}
+        <div class="container {{ section.title }}-container">
+          <h3>{{ section.title }}</h3>
+          {%- if section.quote -%}
+          <p class ="quote">{{ section.quote }}</p>
+          {%- endif -%}
+          {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
+        </div>
+      {% endfor %}
     </div>
   </main>
 
