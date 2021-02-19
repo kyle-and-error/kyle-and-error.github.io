@@ -9,7 +9,8 @@
       <h4>{{ item.title }}</h4>
 
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+      {%- if item.caption -%}<p> {%- if item.location -%}{{ item.location }} |&nbsp;{%- endif -%}  {{ item.caption }}</p>{%- endif -%}
+
 
       {%- if item.link -%}
         {% include a.html href=item.link class="link" %}
