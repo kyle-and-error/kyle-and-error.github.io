@@ -57,10 +57,10 @@ content:
   - title: Education # Title for the section
 
   - title: Experience
+
+# - title: skills
   
   - title: Projects
-
-  - title: Skills
 
   - title: A Little More About Me
     layout: text
