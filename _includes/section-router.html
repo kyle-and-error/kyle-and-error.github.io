@@ -1,7 +1,7 @@
 {%- if section.layout -%}
 
 	{% for item in section.content %}
-		{% include {{ section.layout | prepend: "templates/section-" | append: ".html" }} content=section.content%}
+		{% include {{ section.layout | prepend: "data templates/section-" | append: ".html" }} content=section.content%}
   {% endfor %}
 
 {%- else -%}
@@ -9,7 +9,7 @@
 	{% for part in site.data %}
 		{% assign var = section.title | downcase %}
     	{% for item in site.data[var] %}
-    		{% include {{ dash_title | downcase | prepend: "templates/"| append: ".html" }} %}
+    		{% include {{ dash_title | downcase | prepend: "data templates/"| append: ".html" }} %}
     	{% endfor %}
     {% break %}
   {% endfor %}
