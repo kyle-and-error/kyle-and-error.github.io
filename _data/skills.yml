@@ -1,0 +1,48 @@
+- layout: list
+  title: Codecademy Courses
+  link_text: My Codecademy Profile
+  link: https://www.codecademy.com/profiles/kyle_and_error
+  description: | # this will include new lines to allow paragraphs
+            Completed Courses
+            - [Javascript](https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e "Javascript")
+            - [Ruby](https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd "Ruby")
+            - [HTML](https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7 "HTML")
+            - [CSS](https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05 "CSS")
+            
+            In Progress Courses
+            - Python
+            - Java
+            - MySQL
+            - Vue.js
+
+- layout: left
+  title: LeWagon Full Stack Certification
+  iframe: images/fullstack-certificate.pdf
+  description: | # this will include new lines to allow paragraphs
+            - Full-Stack Web Development including skills such as
+                - Ruby on Rails
+                - HTML
+                - CSS
+                - Relational Databases and Database Management
+
+- layout: left
+  title: Extremely Proficient in
+  description: | # this will include new lines to allow paragraphs
+            - Python 3
+            - GameMaker Studio 2
+            - Git, Bash and ZSH/Oh My ZSH\
+            - Liquid
+
+- layout: left
+  title: Soft Skills
+  description: | # this will include new lines to allow paragraphs        - Detail Oriented
+            - Good verbal and written communicator
+            - Problem solver
+            - Adaptable and flexible
+                - Creative
+            - Teamwork
+                - Open to criticism/Good listener and learner
+                - Good teacher to a range of ages
+            - Research Skills
+                - Knows best sources for informations
+                - Keeps up to date for relevant communities and forums
