@@ -81,6 +81,7 @@ content:
       - layout: left
         title: Codecademy Pro
         caption: Current
+        image: images/codecademy.png
         sub_title: Private Online Instruction
         # location: Online
         quote: >
