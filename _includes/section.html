@@ -1,0 +1,19 @@
+{%- if section.layout -%}
+	{% for item in section.content %}
+		{% include {{ section.layout | prepend: "section-" | append: ".html" }} %}
+  	{% endfor %}
+{%- else -%}
+	{% for part in site.data %}
+		{% for title in part %}
+		<p>{{title}}</p>
+	{% assign secTitle = section.title == {{title | capitalize}} %}
+
+			{% if secTitle%}
+    			{% for item in title %}
+    				{% include {{ section.title | downcase | append: ".html" }} %}
+  				{% endfor %}
+  				{% break %}
+			{%- endif -%}
+		{% endfor %}
+  	{% endfor %}
+{%- endif -%}

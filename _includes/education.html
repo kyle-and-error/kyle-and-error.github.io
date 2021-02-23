@@ -1,54 +1,50 @@
-<div class="container education-container">
-  <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-  <div class="row clearfix layout layout-{{education.layout | default: 'left'}}">
-  	{%- if education.image -%}
+<div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+  	{%- if item.image -%}
   		<div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="img" style="background-image: url({{ education.image | relative_url }})"></span>
+    		<span class="img" style="background-image: url({{ item.image | relative_url }})"></span>
     	</div>
     {%- endif -%}
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      	<h4>{{ education.title }}</h4>
+      	<h4>{{ item.title }}</h4>
 
-      	{%- if education.sub_title -%}<p><b>{{ education.sub_title }}</b></p>{%- endif -%}
-      	{%- if education.caption -%}<p> {%- if education.location -%}{{ education.location }} |&nbsp;{%- endif -%}  {{ education.caption }}</p>{%- endif -%}
+      	{%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      	{%- if item.caption -%}<p> {%- if item.location -%}{{ item.location }} |&nbsp;{%- endif -%}  {{ item.caption }}</p>{%- endif -%}
+
+        {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
 
 
-      	{%- if education.link -%}
-        	{% include a.html href=education.link class="link" %}
-        	{%- if education.link_text -%}{{ education.link_text }}{%- else -%}{{ education.link }}{%- endif -%}
+      	{%- if item.link -%}
+        	{% include a.html href=item.link class="link" %}
+        	{%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
         	</a>
       	{%- endif -%}
 
-     	<p class="no-print aditional-links">
-        	{% for link in education.additional_links %}
+     	  <p class="no-print aditional-links">
+        	{% for link in item.additional_links %}
         		{% include a.html href=link.url class="" %}
         		<i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
           		</a>
         	{% endfor %}
-      	</p>
+        </p>
+
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-    	{%- if education.iframe -%}
-      		<div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
-        		{%- if education.quote -%}
-          			<p class="quote">{{ education.quote }}</p>
-        		{%- endif -%}
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
+      {{ item.description | strip | markdownify }}
 
-        		{{ education.description | strip | markdownify }}
-      		</div>
-      		<div class="col-xs-12 col-sm-4 col-md-5 no-print">
-        		<iframe src="{{ education.iframe | relative_url}}" attribute:scrolling="no"></iframe>
-      		</div>
-    	{%- else -%}
-        	{%- if education.quote -%}
-          		<p class="quote">{{ education.quote }}</p>
-        	{%- endif -%}
+      {%- if item.certificate -%}
+      <div class="links">
+        <a class="openpop" href="files/fullstack-certificate.pdf">Link 1</a>
+      </div>
+      <div class="wrapper">
+        <div class="popup">
+        <iframe src="">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+        <a href="#" class="close">X</a>
+        </div>
+      </div>
+      {%- endif -%}
 
-        	{{ education.description | strip | markdownify }}
-    	{%- endif -%}
-	</div>
-  </div>
-  {% endfor %}
+	  </div>
 </div>

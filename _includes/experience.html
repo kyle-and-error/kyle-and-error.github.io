@@ -1,5 +1,4 @@
-
-  <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+<div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
     {%- if item.image -%}
       <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
         <span class="img" style="background-image: url({{ item.image | relative_url }})"></span>
@@ -7,7 +6,6 @@
     {%- endif -%}
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4>{{ item.title }}</h4>
-      <h4>Section list</h4>
 
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
@@ -28,9 +26,9 @@
       </p>
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
     {%- if item.iframe -%}
-      <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
+      <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 item">
         {%- if item.quote -%}
           <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
