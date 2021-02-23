@@ -16,26 +16,8 @@
   location: Oslo, Norway
   certificate: true
   cert_file: files/fullstack-certificate.pdf
-  description: | # this will include new lines to allow paragraphs
-    Le Wagon is a 9 week Full Stack coding Bootcamp that teaches students how to build a web application. I learned all the skills and steps to create a web app with the Ruby on Rails Framework from backend to frontend.
-    Skills Obtained:
-    - Ruby on Rails
-    - HTML
-    - CSS
-    - Relational Databases and Database Management
-    - MVC Model
-    - Sprint Workflow
   quote: >
-    Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.
-
-- layout: left
-  title: Codecademy Pro
-  caption: Current
-  image: files/codecademy.png
-  sub_title: Private Online Instruction
-  location: Remote
-  quote: >
-    Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS.
+    Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers. The bootcamp teaches students how to build a web application, from database management, to backend, to frontend design.
       
 - layout: left
   title: Walt Whitman High School

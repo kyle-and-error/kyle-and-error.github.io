@@ -4,16 +4,12 @@
   	{% endfor %}
 {%- else -%}
 	{% for part in site.data %}
-		{% for title in part %}
-		<p>{{title}}</p>
-	{% assign secTitle = section.title == {{title | capitalize}} %}
-
-			{% if secTitle%}
-    			{% for item in title %}
-    				{% include {{ section.title | downcase | append: ".html" }} %}
-  				{% endfor %}
-  				{% break %}
-			{%- endif -%}
-		{% endfor %}
+		{% assign var = section.title | downcase %}
+    	{% for item in site.data[var] %}
+    		{% include {{ section.title | downcase | append: ".html" }} %}
+    	{% endfor %}
+    	{% break %}
   	{% endfor %}
 {%- endif -%}
+	
+  	

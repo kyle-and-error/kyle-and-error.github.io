@@ -57,29 +57,13 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-  - title: Education
+  - title: Education # Title for the section
 
   - title: Experience
   
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Untitled RPG
-        # link_text: Project Website
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          This game is currently being developed in Game Maker Studio 2
+  - title: Projects
 
-  - title: Skills and Certifications # Title for the section
+  - title: Skills
     quote: >
       Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
     layout: list # Type of content section (list/text)

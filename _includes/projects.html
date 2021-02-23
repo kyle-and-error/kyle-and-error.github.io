@@ -1,3 +1,9 @@
+<div class="container projects-container">
+  <h3>{{ site.projects_title | default: "Projects" }}</h3>
+  {% for project in site.data.projects %}
+    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+  {% endfor %}
+</div>
 <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
   	{%- if item.image -%}
   		<div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
