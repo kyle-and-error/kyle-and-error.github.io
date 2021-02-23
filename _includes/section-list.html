@@ -1,7 +1,7 @@
 {% for item in include.content %}
   <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
     {%- if item.image -%}
-      <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
+      <div class="col-xs-12 col-sm-4 col-md-1 col-print-12 details">
         <span class="img" style="background-image: url({{ item.image | relative_url }})"></span>
       </div>
     {%- endif -%}
@@ -28,16 +28,16 @@
 
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
     {%- if item.iframe -%}
+      <div class="col-xs-12 col-sm-4 col-md-5 no-print">
+        <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling="no"></iframe>
+      </div>
+      
       <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
         {%- if item.quote -%}
           <p class="quote">{{ item.quote }}</p>
         {%- endif -%}
 
         {{ item.description | strip | markdownify }}
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-5 no-print">
-        <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling="no"></iframe>
       </div>
     {%- else -%}
         {%- if item.quote -%}
