@@ -2,25 +2,25 @@
   skills: # Your skills
     - skill: JavaScript
       certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e # Link or file if you have a certification
-      open: click # have an iframe open up on click
+      click: true # have an iframe open up on click
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: Ruby
       certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd
-      open: click # have an iframe open up on click
+      click: true # have an iframe open up on click
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: HTML
       certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7
-      open: click # have an iframe open up on click
+      click: true # have an iframe open up on click
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: CSS
       certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05
-      open: click # have an iframe open up on click
+      click: true # have an iframe open up on click
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 

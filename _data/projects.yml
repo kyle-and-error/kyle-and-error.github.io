@@ -1,27 +1,24 @@
 - layout: top-middle
-  title: Untitled RPG
+  title: UniHome
 # link_text: Project Website
 # additional_links:
 # icon: fab fa-github
 # url: github.com/sproogen/modern-resume-theme
 # quote: >
-# 
+# This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
-    This game is currently being developed in Game Maker Studio 2
+    A Multi-platform SmartHome application that allows you to integrate multiple voice assistants and devices to achieve true cross-platform SmartHome integration. 
+
 
 - layout: top-middle
-  title: UniHome
+  title: Untitled RPG
+
   description: | # this will include new lines to allow paragraphs
-    A SmartHome webapp that allows you to integrate multiple voice assistants and devices to one single SmartHome!
+    This game is currently being developed in Game Maker Studio 2
 
 - layout: top-middle
   title: Resume Website
   link: https://github.com/kyle-and-error/kyle-and-error.github.io
   link_text: Project Website
-# additional_links:
-# icon: fab fa-github
-# url: github.com/sproogen/modern-resume-theme
-# quote: >
-# This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
   description: | # this will include new lines to allow paragraphs
     You're looking at the results of the project right now!

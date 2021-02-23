@@ -1,6 +1,6 @@
  # Site
 repository: kyle-and-error/kyle-and-error.github.io
-favicon: images/favicon.ico
+favicon: files/favicon.ico
 
 # Content configuration version
 version: 2
@@ -49,75 +49,18 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
-image: images/bus.png
+about_profile_image: files/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Kyle and I’m a Computer Science student at Elon University and a Le Wagon Alumni (Batch #269). I plan to graduate from Elon in 2023. I'm extremely interested in the creative potential of programming in both games and applications. I’m proficient in various programming languages, including Python, GameMakerStudio, and Ruby. I am a freelance tutor (Hire me!) and former swim coach. I am currently looking for employment!
 content:
-  
+
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Elon University
-        image: images/elon.jpg
-        caption: 2018 - Current
-        sub_title: BS Computer Science
-        # location: Elon, NC
-        quote: >
-          Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
-        # description: | # this will include new lines to allow paragraphs
-      - layout: left
-        title: LeWagon
-        image: images/bus.png
-        caption: August 2019
-        sub_title: Full-Stack Web Development Bootcamp
-        # location: Oslo, Norway
-        quote: >
-          Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers.
-      - layout: left
-        title: Codecademy Pro
-        caption: Current
-        image: images/codecademy.png
-        sub_title: Private Online Instruction
-        # location: Online
-        quote: >
-          Codecademy is an American online interactive platform that offers free coding classes in 12 different programming languages including Python, Java, Go, JavaScript, Ruby, SQL, C++, C#, Swift, and Sass, as well as markup languages HTML and CSS.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Assistant Swim Coach
-        image: images/cudas.jpg
-        sub_title: Carderock Springs Swim and Tennis Club
-        caption: June 2017 - May 2018
-        description: | # this will include new lines to allow paragraphs
-            I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
+  - title: Experience
+  
+  - title: Projects
 
-      - layout: left
-        title: Freelance Tutor
-        caption: March 2018 - Present
-        description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Untitled RPG
-        # link_text: Project Website
-        # additional_links:
-          # - title:  sproogen/modern-resume-theme
-            # icon: fab fa-github
-            # url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          This game is currently being developed in Game Maker Studio 2
+  - title: Skills
 
   - title: A Little More About Me
     layout: text
@@ -128,7 +71,7 @@ content:
       - Working out
 
     # Look at this cool image  
-    # ![Trees](images/landscape-trees.jpg "Trees")
+    # ![Trees](files/landscape-trees.jpg "Trees")
 
   - layout: list
     title: Don't Like This Resume?
@@ -137,7 +80,7 @@ content:
         link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
         link_text: Download
         additional_links:
-        - title:  sproogen/modern-resume-theme
+        - title:  resume-view
           icon: fab fa-google-drive
           url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/edit?usp=sharing
         iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
@@ -146,7 +89,7 @@ content:
 footer_show_references: true
 references_title: References on request
 footer_notes: | # Add some additional text to your footer
-  This site was built using Jekyll and Liquid, based on Sproogden's (modern-resume-theme)[github.com/sproogen/modern-resume-theme] with heavy personalization.
+  This site was built using Jekyll and Liquid, based on Sproogden's !(modern-resume-theme)[github.com/sproogen/modern-resume-theme "modern-resume-theme"] with heavy personalization.
 
 
 sass:
