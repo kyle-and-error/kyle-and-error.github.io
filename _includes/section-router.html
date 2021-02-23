@@ -1,15 +1,19 @@
 {%- if section.layout -%}
+
 	{% for item in section.content %}
-		{% include {{ section.layout | prepend: "section-" | append: ".html" }} %}
-  	{% endfor %}
+		{% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content%}
+  {% endfor %}
+
 {%- else -%}
+
 	{% for part in site.data %}
 		{% assign var = section.title | downcase %}
     	{% for item in site.data[var] %}
-    		{% include {{ section.title | downcase | append: ".html" }} %}
+    		{% include {{ dash_title | downcase | append: ".html" }} %}
     	{% endfor %}
-    	{% break %}
-  	{% endfor %}
+    {% break %}
+  {% endfor %}
+
 {%- endif -%}
 	
   	

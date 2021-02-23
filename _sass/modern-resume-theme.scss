@@ -134,7 +134,7 @@
   }
 }
 
-.layout-left, .layout-right {
+.layout-left, .layout-right, .layout-list {
   @media screen and (max-width: 768px) {
     flex-direction: column;
   }

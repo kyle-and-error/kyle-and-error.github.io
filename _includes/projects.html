@@ -1,9 +1,3 @@
-<div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
-  {% endfor %}
-</div>
 <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
   	{%- if item.image -%}
   		<div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
@@ -15,7 +9,8 @@
 
       	{%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       	{%- if item.caption -%}<p> {%- if item.location -%}{{ item.location }} |&nbsp;{%- endif -%}  {{ item.caption }}</p>{%- endif -%}
-
+        {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
+        {{ item.description | strip | markdownify }}
 
       	{%- if item.link -%}
         	{% include a.html href=item.link class="link" %}
@@ -33,22 +28,4 @@
 
     </div>
 
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      {%- if item.quote -%}<p class="quote">{{ item.quote }}</p>{%- endif -%}
-
-      {%- if item.certificate -%}
-      <div class="links">
-        <a class="openpop" href="files/fullstack-certificate.pdf">Link 1</a>
-      </div>
-      <div class="wrapper">
-        <div class="popup">
-        <iframe src="">
-            <p>Your browser does not support iframes.</p>
-        </iframe>
-        <a href="#" class="close">X</a>
-        </div>
-      </div>
-      {%- endif -%}
-
-	  </div>
 </div>

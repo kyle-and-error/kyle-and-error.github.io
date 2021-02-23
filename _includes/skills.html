@@ -1,0 +1,40 @@
+
+<div class="row clearfix layout layout-{{skill.layout | default: 'top-middle'}}">
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4>{{ item.title }}</h4>
+
+      <ul>
+      	{% for skill in item.skills %}
+      		<li>{% include skill.html %}</li>
+      	{% endfor %}
+      </ul>
+
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+    {%- if item.iframe -%}
+      <div class="col-xs-12 col-sm-4 col-md-5 no-print">
+        <iframe src="{{ item.iframe | relative_url}}" attribute:scrolling="no"></iframe>
+      </div>
+      
+      <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
+    {%- endif -%}
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+
+        {{ item.description | strip | markdownify }}
+      {%- if item.iframe -%}
+      </div>
+      {%- endif -%}
+    </div>
+</div>

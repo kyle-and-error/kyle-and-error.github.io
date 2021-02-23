@@ -7,7 +7,6 @@
     {%- endif -%}
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
       <h4>{{ item.title }}</h4>
-      <h4>Section list</h4>
 
       {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
       {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
@@ -35,18 +34,14 @@
       </div>
       
       <div class="col-xs-12 col-sm-8 col-md-7 col-print-12 content">
-        {%- if item.quote -%}
-          <p class="quote">{{ item.quote }}</p>
-        {%- endif -%}
-
-        {{ item.description | strip | markdownify }}
-      </div>
-    {%- else -%}
-        {%- if item.quote -%}
-          <p class="quote">{{ item.quote }}</p>
-        {%- endif -%}
-
-        {{ item.description | strip | markdownify }}
     {%- endif -%}
+        {%- if item.quote -%}
+          <p class="quote">{{ item.quote }}</p>
+        {%- endif -%}
+
+        {{ item.description | strip | markdownify }}
+      {%- if item.iframe -%}
+      </div>
+      {%- endif -%}
     </div>
   </div>
