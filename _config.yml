@@ -60,7 +60,7 @@ content:
   
   - title: Projects
 
-  - title: Skills
+  # - title: Skills
 
   - title: A Little More About Me
     layout: text
