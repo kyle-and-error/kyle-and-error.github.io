@@ -52,6 +52,8 @@ about_profile_image: images/profile.jpg
 image: images/bus.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Kyle and I'm a Computer Science student at Elon University. I'm extremely interested in the creative potential of programming in both games and applications. I'm proficient in GameMaker Studio 2, mySQL, and a number of Object Oriented Programming languages. I am a Le Wagon Alumni (Batch #269), and plan to graduate from Elon University in 2023.
+  Hi, my name is Kyle and I’m a Computer Science student at Elon University and a Le Wagon Alumni (Batch #269). I plan to graduate from Elon in 2023. I’m proficient in GameMaker Studio 2, mySQL, and a number of Object Oriented Programming languages. I have worked as a freelance tutor and  a swim coach. I am working on several projects: a personal website, a SmartHome web app that can enable control from different voice assistants, and a RPG built in GameMaker Studio 2. 
+
 
 content:
   
