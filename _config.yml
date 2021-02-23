@@ -7,6 +7,7 @@ version: 2
 
 # Personal info
 name: Kyle Cho
+pronouns: He/they
 title: Web App Developer and Amateur Game Designer
 email: kylescho99@gmail.com
 email2: kcho@elon.edu
@@ -51,8 +52,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 image: images/bus.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Kyle and I am a Computer Science major at Elon University. I'm extremely interested in the creative potential of programming in both games and applications. I'm proficient in GameMaker Studio 2, mySQL, and a number of Object Oriented Programming languages. I am a Le Wagon Alumni (Batch #269), and plan to graduate from Elon University in 2023.
-
+  Hi, my name is Kyle and I’m a Computer Science student at Elon University and a Le Wagon Alumni (Batch #269). I plan to graduate from Elon in 2023. I'm extremely interested in the creative potential of programming in both games and applications. I’m proficient in various programming languages, including Python, GameMakerStudio, and Ruby. I am a freelance tutor (Hire me!) and former swim coach. I am currently looking for employment!
 content:
   
   - title: Education # Title for the section
@@ -78,6 +78,7 @@ content:
       - layout: left
         title: Codecademy Pro
         caption: Current
+        image: images/codecademy.png
         sub_title: Private Online Instruction
         # location: Online
         quote: >
@@ -87,17 +88,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Freelance Tutor
-        caption: March 2018 - Present
-        description: | # this will include new lines to allow paragraphs
-            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
-      - layout: left
         title: Assistant Swim Coach
+        image: images/cudas.jpg
         sub_title: Carderock Springs Swim and Tennis Club
         caption: June 2017 - May 2018
         description: | # this will include new lines to allow paragraphs
             I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
 
+      - layout: left
+        title: Freelance Tutor
+        caption: March 2018 - Present
+        description: | # this will include new lines to allow paragraphs
+            I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -117,59 +119,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           This game is currently being developed in Game Maker Studio 2
 
-  - title: Skills and Certifications # Title for the section
-    quote: >
-      Please note that I consider myself to be extremely proficient in any skill I am certified in (by any organization).
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: list
-        title: Codecademy Courses
-        link_text: My Codecademy Profile
-        link: https://www.codecademy.com/profiles/kyle_and_error
-        description: | # this will include new lines to allow paragraphs
-            Completed Courses
-            - [Javascript](https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e "Javascript")
-            - [Ruby](https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd "Ruby")
-            - [HTML](https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7 "HTML")
-            - [CSS](https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05 "CSS")
-            
-            In Progress Courses
-            - Python
-            - Java
-            - MySQL
-            - Vue.js
-
-      - layout: left
-        title: LeWagon Full Stack Certification
-        iframe: images/fullstack-certificate.pdf
-        description: | # this will include new lines to allow paragraphs
-            - Full-Stack Web Development including skills such as
-                - Ruby on Rails
-                - HTML
-                - CSS
-                - Relational Databases and Database Management
-
-      - layout: left
-        title: Extremely Proficient in
-        description: | # this will include new lines to allow paragraphs
-            - Python 3
-            - GameMaker Studio 2
-            - Git, Bash and ZSH/Oh My ZSH
-
-      - layout: left
-        title: Soft Skills
-        description: | # this will include new lines to allow paragraphs        - Detail Oriented
-            - Good verbal and written communicator
-            - Problem solver
-            - Adaptable and flexible
-                - Creative
-            - Teamwork
-                - Open to criticism/Good listener and learner
-                - Good teacher to a range of ages
-            - Research Skills
-                - Knows best sources for informations
-                - Keeps up to date for relevant communities and forums
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -185,14 +134,19 @@ content:
     title: Don't Like This Resume?
     content: 
       - layout: left
-        title: PDF version of my resume
         link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
         link_text: Download
+        additional_links:
+        - title:  sproogen/modern-resume-theme
+          icon: fab fa-google-drive
+          url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/edit?usp=sharing
         iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
 
-# Footer
+# Footer 
 footer_show_references: true
 references_title: References on request
+footer_notes: | # Add some additional text to your footer
+  This site was built using Jekyll and Liquid, based on Sproogden's (modern-resume-theme)[github.com/sproogen/modern-resume-theme] with heavy personalization.
 
 
 sass:
