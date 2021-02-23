@@ -6,4 +6,7 @@
       &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%}
   </p>
+  {%- if site.footer_notes -%}
+  	{{ site.footer_notes | strip | markdownify }}
+  {%- endif -%}
 </div>

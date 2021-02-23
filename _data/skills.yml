@@ -1,48 +1,73 @@
-- layout: list
-  title: Codecademy Courses
-  link_text: My Codecademy Profile
-  link: https://www.codecademy.com/profiles/kyle_and_error
-  description: | # this will include new lines to allow paragraphs
-            Completed Courses
-            - [Javascript](https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e "Javascript")
-            - [Ruby](https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd "Ruby")
-            - [HTML](https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7 "HTML")
-            - [CSS](https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05 "CSS")
-            
-            In Progress Courses
-            - Python
-            - Java
-            - MySQL
-            - Vue.js
+- title: Extremely Proficient Programming skills # Title of subsection
+  skills: # Your skills
+    - skill: JavaScript
+      certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/705dcb15de0da4dd9d9fc4f3274b430e # Link or file if you have a certification
+      open: click # have an iframe open up on click
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
 
-- layout: left
-  title: LeWagon Full Stack Certification
-  iframe: images/fullstack-certificate.pdf
-  description: | # this will include new lines to allow paragraphs
-            - Full-Stack Web Development including skills such as
-                - Ruby on Rails
-                - HTML
-                - CSS
-                - Relational Databases and Database Management
+    - skill: Ruby
+      certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/1c05e0382bc5681c824c4cbe85c126fd
+      open: click # have an iframe open up on click
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
 
-- layout: left
-  title: Extremely Proficient in
-  description: | # this will include new lines to allow paragraphs
-            - Python 3
-            - GameMaker Studio 2
-            - Git, Bash and ZSH/Oh My ZSH\
-            - Liquid
+    - skill: HTML
+      certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7
+      open: click # have an iframe open up on click
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
 
-- layout: left
-  title: Soft Skills
-  description: | # this will include new lines to allow paragraphs        - Detail Oriented
-            - Good verbal and written communicator
-            - Problem solver
-            - Adaptable and flexible
-                - Creative
-            - Teamwork
-                - Open to criticism/Good listener and learner
-                - Good teacher to a range of ages
-            - Research Skills
-                - Knows best sources for informations
-                - Keeps up to date for relevant communities and forums
+    - skill: CSS
+      certificate: https://www.codecademy.com/profiles/kyle_and_error/certificates/9a5bb1fc45b4281af1fffec93b0aaf05
+      open: click # have an iframe open up on click
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
+
+    - skill: Full-Stack Web Development
+      layout: left
+      certificate: files/fullstack-certificate.pdf
+      description: | # this will include new lines to allow paragraphs
+      Skills I learned as a part of this certification that I am extremely proficient in: 
+        - Ruby on Rails
+        - HTML
+        - CSS
+        - Relational Databases and Database Management
+        - mongoDB
+
+    - skill: Python 3
+
+    - skill: Java
+
+    - skill: MySQL
+
+    - skill: GameMaker Studio 2
+
+    - skill: Git, Bash and ZSH/Oh My ZSH
+
+    - skill: Liquid
+
+- title: Skills I'm learning
+  skills:
+    - skill: Vue.js
+
+- title: Soft Skills
+  skills:
+    - skill: Good verbal and written communicator
+
+    - skill: Problem solver
+
+    - skill: Adaptable and flexible
+
+    - skill: Creative
+
+    - skill: Cooperative/Good teamwork
+      description: |
+       - Open to criticism
+       - Good listener and learner
+       - Good teacher to a range of ages
+
+    - skill: Research Skills
+      description: |
+        - Knows best sources for informations
+        - Keeps up to date for relevant communities and forums
