@@ -73,17 +73,18 @@ content:
     # Look at this cool image  
     # ![Trees](files/landscape-trees.jpg "Trees")
 
-  - layout: list
-    title: Don't Like This Resume?
-    content: 
-      - layout: left
-        link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
-        link_text: Download
-        additional_links:
-        - title:  resume-view
-          icon: fab fa-google-drive
-          url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/edit?usp=sharing
-        iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
+
+#  - layout: list
+#    title: Don't Like This Resume?
+#    content: 
+#      - layout: left
+#        link: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/export?format=pdf
+#        link_text: Download
+#        additional_links:
+#        - title:  resume-view
+#          icon: fab fa-google-drive
+#          url: https://docs.google.com/document/d/1lc9mgM9j3jNg2Q_Ji1f2M5pv8ogBTKN1z17wE983dck/edit?usp=sharing
+#        iframe: https://docs.google.com/document/d/e/2PACX-1vQH3ovg1l8sydoNXORGwIpihyHEzGHIK4T4h0kSQFEN_3Ih4M7vVPQE2kXPzE0U-uxhjMK9rnMS6z9b/pub?embedded=true
 
 # Footer 
 footer_show_references: true
