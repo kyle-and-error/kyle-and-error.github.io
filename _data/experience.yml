@@ -1,10 +1,10 @@
 - layout: left
-  title: Assistant Swim Coach
-  sub_title: Carderock Springs Swim and Tennis Club
-  image: files/cudas.jpg
-  caption: June 2017 - May 2018
+  title: Cashier/Server
+  sub_title: CHIKO DC
+  image: files/chiko.jpeg
+  caption: April 2021 - Present
   description: | # this will include new lines to allow paragraphs
-    I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
+    My responsibilities as a Front of House employee included assembling and expediting take out and delivery (through 3rd party services like Uber Eats and DoorDash) orders. When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
   title: Freelance Tutor
@@ -13,9 +13,9 @@
     I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
 
 - layout: left
-  title: Cashier/Server
-  sub_title: CHIKO DC
-  image: files/chiko.jpeg
-  caption: April 2021 - Present
+  title: Assistant Swim Coach
+  sub_title: Carderock Springs Swim and Tennis Club
+  image: files/cudas.jpg
+  caption: June 2017 - May 2018
   description: | # this will include new lines to allow paragraphs
-    My responsibilities as a Front of House employee included assembling and expediting take out and delivery (through 3rd party services like Uber Eats and DoorDash) orders. When CHIKO opened for dine-in, I served dine-in customers.
+    I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
