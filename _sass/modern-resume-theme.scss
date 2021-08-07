@@ -52,6 +52,10 @@
   background-repeat: repeat, no-repeat;
 }
 
+@media (max-width:768px) {
+    .org-img{ width:100% } 
+}
+
 .into-text-1 {
   margin-top: 30px;
 }
