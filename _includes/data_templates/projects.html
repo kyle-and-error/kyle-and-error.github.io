@@ -1,7 +1,7 @@
 <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
   	{%- if item.image -%}
   		<div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="org-img" style="background-image: url({{ item.image | relative_url }})"></span>
+    		<span class="org-img profile-img" style="background-image: url({{ item.image | relative_url }})"></span>
     	</div>
     {%- endif -%}
     <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
