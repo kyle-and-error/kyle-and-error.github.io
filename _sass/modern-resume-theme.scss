@@ -41,15 +41,10 @@
 }
 
 .org-img {
+  .profile-img
   width: 80px;
   height: 80px;
-  margin: 0;
-  margin-bottom: 20px;
-  display: block;
   border-radius: 40px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat, no-repeat;
 }
 
 @media (max-width:768px) {
