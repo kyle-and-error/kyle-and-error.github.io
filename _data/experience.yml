@@ -1,16 +1,26 @@
 - layout: left
+  title: Receptionist and Sales
+  sub_title: Level A Unique Fitness Club
+  image: files/level.png
+  caption: September 2021 - April 2022
+  description: | # this will include new lines to allow paragraphs
+    At Level, I navigate MindBody in order to organize schedules for our Personal Trainers and check in our members. Receptionists at Level also function as a sort of sales associate. I show prospective members our facilities and talk them through any possible training they may go through with any of our trainers. 
+
+- layout: left
+  title: IT Manager
+  sub_title: Level A Unique Fitness Club
+  image: files/level.png
+  caption: April 2022 - Present
+  description: | # this will include new lines to allow paragraphs
+    While working as a receptionist, a need arose for IT support. I provide support and maintain our gym's smart equipment and network equipment, ranging from software updates to managing the firewall.
+
+- layout: left
   title: Cashier/Server
   sub_title: CHIKO DC
   image: files/chiko.jpeg
   caption: April 2021 - Present
   description: | # this will include new lines to allow paragraphs
-    My responsibilities as a Front of House employee included assembling and expediting take out and delivery (through 3rd party services like Uber Eats and DoorDash) orders. When CHIKO opened for dine-in, I served dine-in customers.
-
-- layout: left
-  title: Freelance Programmer 
-  caption: August 2021 - Present
-  description: | # this will include new lines to allow paragraphs
-    I have taken on multiple projects which you can see in the Projects section!
+    My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
   title: Freelance Tutor
