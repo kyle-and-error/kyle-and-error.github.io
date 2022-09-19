@@ -89,7 +89,7 @@ content:
 footer_show_references: true
 references_title: References on request
 footer_notes: | # Add some additional text to your footer
-  This site was built using Jekyll and Liquid, based on Sproogden's !(modern-resume-theme)[github.com/sproogen/modern-resume-theme "modern-resume-theme"] with heavy personalization.
+  This site was built using Jekyll and Liquid, based on Sproogen's [modern-resume-theme](github.com/sproogen/modern-resume-theme "modern-resume-theme") with heavy personalization.
 
 
 sass:
