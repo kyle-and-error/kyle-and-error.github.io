@@ -1,4 +1,3 @@
-<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 skill skill-layout-{{skill.layout | default: 'top-middle'}}">
     <h2>{{ skill.skill }}</h2>
 
     {%- if skill.certificate -%}
@@ -19,5 +18,3 @@
     {%- endif -%}
 
     {{ skill.description | strip | markdownify }}
-
-</div>
