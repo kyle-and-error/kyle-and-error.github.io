@@ -2,7 +2,7 @@
 
 	{% for item in section.content %}
 		{% include {{ section.layout | prepend: "data_templates/section-" | append: ".html" }} content=section.content%}
-  {% endfor %}
+  	{% endfor %}
 
 {%- else -%}
 
