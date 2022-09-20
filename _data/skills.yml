@@ -2,32 +2,32 @@
   skills: # Your skills
     - skill: JavaScript
       layout: left
-      certificate: files/certifications/JavaScript-cert.png # Link or image file if you have a certification
+      certificate: files/Certifications/JavaScript-cert.png # Link or image file if you have a certification
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: Ruby
       layout: left
-      certificate: files/certifications/ruby-cert.png
+      certificate: files/Certifications/ruby-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: HTML
       layout: left
-      certificate: files/certifications/html-cert.png
+      certificate: files/Certifications/html-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: CSS
       layout: left
-      certificate: files/certifications/CSS-cert.png
+      certificate: files/Certifications/CSS-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: Full-Stack Web Development
       organization: LeWagon
       org-image: files/lewagon.png
-      certificate: files/certifications/fullstack-cert.png
+      certificate: files/Certifications/fullstack-cert.png
       # description: | # this will include new lines to allow paragraphs
       # Skills I learned as a part of this certification that I am extremely proficient in: 
       #  - Ruby on Rails
