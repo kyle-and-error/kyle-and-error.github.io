@@ -4,14 +4,20 @@
 
 @import 'modern-resume-theme';
 
-#skill{
-  display: flex;
-  flex-direction: column;
-  border: 1px solid white;
-  #image{
-    width: 354px;
-    height: 264px;
+#cert{
+    width: 472px;
+    height: 352px;
     border: none;
     border-radius: 12px;
-  }
+}
+#bullet-image{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat, no-repeat;
 }

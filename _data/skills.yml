@@ -1,31 +1,34 @@
 - title: Certified Skills
   skills: # Your skills
     - skill: JavaScript
+      layout: left
       certificate: files/certifications/JavaScript-cert.png # Link or image file if you have a certification
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: Ruby
+      layout: left
       certificate: files/certifications/ruby-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: HTML
+      layout: left
       certificate: files/certifications/html-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: CSS
+      layout: left
       certificate: files/certifications/CSS-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
     - skill: Full-Stack Web Development
-      layout: left
       organization: LeWagon
       org-image: files/lewagon.png
       certificate: files/certifications/fullstack-cert.png
-      description: | # this will include new lines to allow paragraphs
+      description: > # this will include new lines to allow paragraphs
       Skills I learned as a part of this certification that I am extremely proficient in: 
         - Ruby on Rails
         - HTML
@@ -36,7 +39,15 @@
   skills:
     - skill: Python
 
+    - skill: Ruby on Rails
+
+    - skill: Relational Database Management
+
+    - skill: CSS
+
     - skill: Java
+
+    - skill: mongoDB
 
     - skill: MySQL
 
@@ -68,6 +79,6 @@
 
     - skill: Research Skills
       description: |
-        - Knows best sources for informations
-        - Keeps up to date for relevant communities and forums
+        - I know the best resources
+        - I keep up to date with relevant communities and forums
         
