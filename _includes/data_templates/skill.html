@@ -1,20 +1,11 @@
-    <h2>{{ skill.skill }}</h2>
+<div id="skill">
+  {%- if skill.org-image -%}
+    <span class="img" style="background-image: url({{ skill.org-image | relative_url }})"></span>
+  {%- endif -%}
+  <h2>{{ skill.skill }}</h2>
+  {%- if skill.certificate -%}
+    <img id=image src="{{ skill.certificate | relative_url}}" >
+  {%- endif -%}
 
-    {%- if skill.certificate -%}
-      {%- if skill.org-image -%}
-        <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="img" style="background-image: url({{ skill.org-image | relative_url }})"></span>
-        </div>
-      {%- endif -%}
-      {%- if skill.click -%}
-        <div class="col-xs-12 col-sm-4 col-md-5 no-print">
-          <iframe src="{{ skill.certificate | relative_url}}" attribute:scrolling="no"></iframe>
-        </div>
-      {%- else -%}
-        <div class="col-xs-12 col-sm-4 col-md-5 no-print">
-          <iframe src="{{ skill.certificate | relative_url}}" attribute:scrolling="no"></iframe>
-        </div>
-      {%- endif -%}
-    {%- endif -%}
-
-    {{ skill.description | strip | markdownify }}
+  {{ skill.description | strip | markdownify }}
+</div>

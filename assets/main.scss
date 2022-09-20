@@ -4,39 +4,14 @@
 
 @import 'modern-resume-theme';
 
-.skill-layout-right {
-  flex-direction: row-reverse;
-}
-
-.skill-layout-right, .skill-layout-top-right {
-  .details {
-    text-align: right;
-  }
-}
-
-.skill-layout-left, .skill-layout-right {
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-  }
-}
-
-.skill-layout-top-middle, .skill-layout-top, .skill-layout-top-right {
+#skill{
+  display: flex;
   flex-direction: column;
-
-  .details, .content {
-    width: 100%;
+  border: 1px solid white;
+  #image{
+    width: 354px;
+    height: 264px;
+    border: none;
+    border-radius: 12px;
   }
-}
-
-.skill-layout-top-middle {
-  .details {
-    text-align: center;
-  }
-}
-
-iframe{
-	margin: 0;
-	padding: 0;
-	border: none;
-	-webkit-border-radius: 12px;
 }

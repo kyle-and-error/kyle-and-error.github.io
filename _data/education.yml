@@ -10,12 +10,12 @@
       
 - layout: left
   title: LeWagon
-  image: files/bus.png
+  image: files/lewagon.png
   caption: August 2019
   sub_title: Full-Stack Web Development Bootcamp
   location: Oslo, Norway
-  certificate: true
-  cert_file: files/fullstack-certificate.pdf
+  # certificate: true
+  # cert_file: files/fullstack-certificate.pdf
   quote: >
     Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers. The bootcamp teaches students how to build a web application, from database management, to backend, to frontend design.
       

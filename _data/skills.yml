@@ -1,4 +1,52 @@
-- title: Skills I'm Learning
+- title: Certified Skills
+  skills: # Your skills
+    - skill: JavaScript
+      certificate: files/certifications/JavaScript-cert.png # Link or image file if you have a certification
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
+
+    - skill: Ruby
+      certificate: files/certifications/ruby-cert.png
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
+
+    - skill: HTML
+      certificate: files/certifications/html-cert.png
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
+
+    - skill: CSS
+      certificate: files/certifications/CSS-cert.png
+      organization: Codecademy # Organization that issued the certification
+      org-image: files/codecademy.png # Image of the organization
+
+    - skill: Full-Stack Web Development
+      layout: left
+      organization: LeWagon
+      org-image: files/lewagon.png
+      certificate: files/certifications/fullstack-cert.png
+      description: | # this will include new lines to allow paragraphs
+      Skills I learned as a part of this certification that I am extremely proficient in: 
+        - Ruby on Rails
+        - HTML
+        - CSS
+        - Relational Databases and Database Management
+        - mongoDB
+- title: Extremely Proficient Programming skills # Title of subsection
+  skills:
+    - skill: Python
+
+    - skill: Java
+
+    - skill: MySQL
+
+    - skill: GameMaker Studio 2
+
+    - skill: Git, Bash and ZSH/Oh My ZSH
+
+    - skill: Liquid
+
+- title: Skills I'm learning
   skills:
     - skill: Vue.js
 

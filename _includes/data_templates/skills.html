@@ -1,36 +1,27 @@
 <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
-    {%- if item.image -%}
-      <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="img" style="background-image: url({{ item.image | relative_url }})"></span>
+  <div class="col-xs-12 col-sm-4 col-md-10 col-print-12 details">
+    <h4>{{ item.title }}</h4>
+      <div id="skill-list">
+        {% for skill in item.skills %}
+          {% include data_templates/skill.html %}
+        {% endfor %}
       </div>
-    {%- endif -%}
-    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-        <h4>{{ item.title }}</h4>
-        <ul>
-          {% for skill in item.skills %}
-            <li>{% include data_templates/skill.html %}</li>
-          {% endfor %}
-        </ul>
 
-        {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
-        {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
-        {%- if item.link -%}
-          {% include a.html href=item.link class="link" %}
-          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
-          </a>
-        {%- endif -%}
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+        {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
 
-        <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-          {%- if item.quote -%}
-            <p class="quote">{{ item.quote }}</p>
-          {%- endif -%}
+      <div class="col-xs-12 col-sm-8 col-md-10 col-print-12 content">
 
-          {{ item.description | strip | markdownify }}
+        {{ item.description | strip | markdownify }}
       
-        </div>
+      </div>
 
-    </div>
-
+  </div>
 </div>
 
