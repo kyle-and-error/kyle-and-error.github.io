@@ -28,13 +28,14 @@
       organization: LeWagon
       org-image: files/lewagon.png
       certificate: files/certifications/fullstack-cert.png
-      description: > # this will include new lines to allow paragraphs
-      Skills I learned as a part of this certification that I am extremely proficient in: 
-        - Ruby on Rails
-        - HTML
-        - CSS
-        - Relational Databases and Database Management
-        - mongoDB
+      # description: | # this will include new lines to allow paragraphs
+      # Skills I learned as a part of this certification that I am extremely proficient in: 
+      #  - Ruby on Rails
+      #  - HTML
+      #  - CSS
+      #  - Relational Databases and Database Management
+      #  - mongoDB
+
 - title: Extremely Proficient Programming skills # Title of subsection
   skills:
     - skill: Python
