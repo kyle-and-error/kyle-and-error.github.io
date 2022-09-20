@@ -9,6 +9,17 @@
 
     {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
     {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+  <div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+    {%- if item.image -%}
+      <div class="col-xs-12 col-sm-4 col-md-1 col-print-12 details">
+        <span class="org-img profile-img" style="background-image: url({{ item.image | relative_url }})"></span>
+      </div>
+    {%- endif -%}
+    <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+      <h4>{{ item.title }}</h4>
+
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
 
     {%- if item.link -%}
       {% include a.html href=item.link class="link" %}

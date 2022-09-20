@@ -1,13 +1,37 @@
 - layout: left
-  title: Assistant Swim Coach
-  sub_title: Carderock Springs Swim and Tennis Club
-  image: files/cudas.jpg
-  caption: June 2017 - May 2018
+  title: Receptionist and Sales
+  sub_title: Level A Unique Fitness Club
+  image: files/level.png
+  caption: September 2021 - April 2022
   description: | # this will include new lines to allow paragraphs
-    I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  
+    At Level, I navigate MindBody in order to organize schedules for our Personal Trainers and check in our members. Receptionists at Level also function as a sort of sales associate. I show prospective members our facilities and talk them through any possible training they may go through with any of our trainers. 
+
+- layout: left
+  title: IT Manager
+  sub_title: Level A Unique Fitness Club
+  image: files/level.png
+  caption: April 2022 - Present
+  description: | # this will include new lines to allow paragraphs
+    While working as a receptionist, a need arose for IT support. I provide support and maintain our gym's smart equipment and network equipment, ranging from software updates to managing the firewall.
+
+- layout: left
+  title: Cashier/Server
+  sub_title: CHIKO DC
+  image: files/chiko.jpeg
+  caption: April 2021 - Present
+  description: | # this will include new lines to allow paragraphs
+    My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
   title: Freelance Tutor
   caption: March 2018 - Present
   description: | # this will include new lines to allow paragraphs
     I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
+
+- layout: left
+  title: Assistant Swim Coach
+  sub_title: Carderock Springs Swim and Tennis Club
+  image: files/cudas.jpg
+  caption: June 2017 - May 2018
+  description: | # this will include new lines to allow paragraphs
+    I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.  

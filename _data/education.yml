@@ -1,8 +1,16 @@
 - layout: left
+  title: Montgomery College
+  image: files/mc.png
+  caption: August 2021 - Current
+  location: Montgomery County, MD
+  quote: >
+    Montgomery College is Maryland's premier community college, serving more than 50000 students each year through credit and noncredit programs.
+# description: | # this will include new lines to allow paragraphs
+
+- layout: left
   title: Elon University
   image: files/elon.jpg
-  caption: 2018 - Current
-  sub_title: BS Computer Science
+  caption: 2018 - 2020
   location: Elon, NC
   quote: >
     Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
@@ -14,8 +22,8 @@
   caption: August 2019
   sub_title: Full-Stack Web Development Bootcamp
   location: Oslo, Norway
-  # certificate: true
-  # cert_file: files/fullstack-certificate.pdf
+#  certificate: true
+#  cert_file: files/fullstack-certificate.pdf
   quote: >
     Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers. The bootcamp teaches students how to build a web application, from database management, to backend, to frontend design.
       
@@ -24,7 +32,7 @@
   image: files/whitman.png
   caption: 2014 - 2018
   sub_title: High School Diploma
+#  certificate: true
   location: Bethesda, MD
-  certification: true
   quote: >
     Walt Whitman High School is a public high school in Bethesda, Maryland, United States. The school is named in honor of the American poet, Walt Whitman. The school serves grades 9-12 for the Montgomery County Public Schools.

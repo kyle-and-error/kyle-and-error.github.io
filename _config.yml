@@ -18,7 +18,7 @@ website: www.kyle-and-error.github.io
 darkmode: true
 
 # Social links
-twitter_username: kyle_and_3rror
+# twitter_username: kyle_and_3rror
 github_username:  kyle-and-error
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -57,10 +57,10 @@ content:
   - title: Education # Title for the section
 
   - title: Experience
+
+# - title: skills
   
   - title: Projects
-
-  - title: Skills
 
   - title: A Little More About Me
     layout: text
