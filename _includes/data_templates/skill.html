@@ -1,23 +1,21 @@
-<div class="col-xs-12 col-sm-4 col-md-3 col-print-12 skill skill-layout-{{skill.layout | default: 'top-middle'}}">
-    <h2>{{ skill.skill }}</h2>
-
-    {%- if skill.certificate -%}
-      {%- if skill.org-image -%}
-        <!-- <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"> -->
-        <span class="org-img profile-img" style="background-image: url({{ skill.org-image | relative_url }})"></span>
-        <!-- </div> -->
-      {%- endif -%}
-      {%- if skill.click -%}
-        <div class="col-xs-12 col-sm-4 col-md-5 no-print">
-          <iframe src="{{ skill.certificate | relative_url}}" attribute:scrolling="no"></iframe>
-        </div>
-      {%- else -%}
-        <div class="col-xs-12 col-sm-4 col-md-5 no-print">
-          <iframe src="{{ skill.certificate | relative_url}}" attribute:scrolling="no"></iframe>
-        </div>
-      {%- endif -%}
+<div class="row clearfix layout layout-{{skill.layout | default: 'left'}}">
+  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
+    {%- if skill.org-image -%}
+      <img id="bullet-image" src="{{ skill.org-image | relative_url}}" >
     {%- endif -%}
-
-    {{ skill.description | strip | markdownify }}
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
+    <h2>{{ skill.skill }}</h2>
+  </div>
+  {%- if skill.certificate -%}
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
+      <img id="cert" src="{{ skill.certificate | relative_url}}" ></img>
+    </div>
+  {%- endif -%}
+  {%- if skill.description -%}
+    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 details">
+      {{ skill.description | strip | markdownify }}
+    </div>
+  {%- endif -%}
 
 </div>
