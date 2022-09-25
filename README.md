@@ -4,10 +4,10 @@ A resume built with the help of [sproogden's modern resume theme](https://github
 
 Feel free to use my project as a template. I essentially combined sproogden's [V1 (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md) and [V2 (Version 2 Readme)](https://github.com/sproogen/modern-resume-theme/blob/master/README.md), as well as added some features of my own like a place for your pronouns.
 
-NOTE: PARTS OF THIS README ARE LIFTED FROM SPROOGDEN's README. PLEASE SUPPORT THEM [HERE](https://buymeacoff.ee/vJ6HfLu).
+NOTE: PARTS OF THIS README ARE COPIED FROM SPROOGDEN's README. PLEASE SUPPORT THEM [HERE](https://buymeacoff.ee/vJ6HfLu).
 
 ----
-This guide is here to help you set u
+This guide is here to help you set up
 
 ## Installation & setup guide
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
