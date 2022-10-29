@@ -2,7 +2,7 @@
   skills: # Your skills
     - skill: JavaScript
       layout: left
-      certificate: files/certifications/Javascript-cert.png # Link or image file if you have a certification
+      certificate: files/Certifications/Javascript-cert.png # Link or image file if you have a certification
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
