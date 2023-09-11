@@ -1,10 +1,10 @@
 - layout: left
-  title: Montgomery College
-  image: files/mc.png
-  caption: August 2021 - Current
-  location: Montgomery County, MD
+  title: University of Maryland Global Campus
+  image: files/umgc.png
+  caption: Winter 2023 - Current
+  location: Adelphi, MD
   quote: >
-    Montgomery College is Maryland's premier community college, serving more than 50000 students each year through credit and noncredit programs.
+   The University of Maryland Global Campus is a public university in Adelphi, Maryland. It is the largest institution in the University System of Maryland.
 # description: | # this will include new lines to allow paragraphs
 
 - layout: left
