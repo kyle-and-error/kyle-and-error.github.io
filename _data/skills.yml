@@ -40,6 +40,8 @@
   skills:
     - skill: Python
 
+    - skill: Lua
+
     - skill: Ruby on Rails
 
     - skill: Relational Database Management
@@ -61,10 +63,11 @@
 - title: Skills I'm learning
   skills:
     - skill: Vue.js
+    - skill: RPG Maker
 
 - title: Soft Skills
   skills:
-    - skill: Good verbal and written communicator
+    - skill: Excellent verbal and written communicator
 
     - skill: Trouble Shooting/Problem solver
 
@@ -80,6 +83,6 @@
 
     - skill: Research Skills
       description: |
-        - I know the best resources
+        - I know the best and most relevant sources without relying on AI
         - I keep up to date with relevant communities and forums
         
