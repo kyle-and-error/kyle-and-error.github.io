@@ -43,12 +43,14 @@
     - skill: Lua
 
     - skill: Ruby on Rails
-
-    - skill: Relational Database Management
+    description: |
+       - Familiar with Ruby Projects that use both liquid and ymlß
 
     - skill: CSS
 
     - skill: Java
+
+    - skill: Relational Database Management
 
     - skill: mongoDB
 
@@ -58,11 +60,11 @@
 
     - skill: Git, Bash and ZSH/Oh My ZSH
 
-    - skill: Liquid
-
-- title: Skills I'm learning
+- title: Other skills
   skills:
     - skill: Vue.js
+    - skill: Unity
+    - skill: Unreal
     - skill: RPG Maker
 
 - title: Soft Skills
