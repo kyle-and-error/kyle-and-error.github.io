@@ -1,18 +1,14 @@
 - layout: left
-  title: IT Manager
-  sub_title: Level A Unique Fitness Club
+  comapny: Company Name
   image: files/level.png
-  caption: April 2022 - Nov 2025
+  jobs:
+    - title: IT Manager
+      caption: April 2022 - Nov 2025
+    - title: Senior Member Services Associate
+      caption: September 2021 - April 2022
   description: | # this will include new lines to allow paragraphs
-    After some time as a Member Services Associate, I was promoted to IT Manager to provide more technical support as LEVEL expanded their services. I provided virtual class support, maintained our gym's networks, network hardware, smart tablets, as well as smart gym equipment.
-
-- layout: left
-  title: Senior Member Services Associate
-  sub_title: Level A Unique Fitness Club
-  image: files/level.png
-  caption: September 2021 - April 2022
-  description: | # this will include new lines to allow paragraphs
-    At Level, I navigated gym management software in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers. 
+  At Level, I navigated gym management software in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers. description: | # this will include new lines to allow paragraphs
+  After some time as a Member Services Associate, I was promoted to IT Manager to provide more technical support as LEVEL expanded their services. I provided virtual class support, maintained and upgraded our gym's networks, network hardware, smart tablets, and smart gym equipment. 
 
 - layout: left
   title: Part Owner, Accounting and Inventory Manager

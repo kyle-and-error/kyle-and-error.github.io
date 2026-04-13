@@ -77,11 +77,12 @@ If you wish to specify multiple job titles for a single company, use this format
 - layout: left (options: left, right, top, top-right, top-middle)
   company: Company name
   link: Link to company (optional)
+  image: \[image path] (optional)
   jobs:
     - title: Job title 1
-      dates: Date Range (eg. November 2016 - present)
+      caption: Date Range (eg. November 2016 - present)
     - title: Job title 2
-      dates: Date Range (eg. January 2015 - November 2016)
+      caption: Date Range (eg. January 2015 - November 2016)
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
