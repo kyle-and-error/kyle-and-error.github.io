@@ -43,7 +43,7 @@
     - skill: Lua
 
     - skill: Ruby on Rails
-    description: |
+      description: |
        - Familiar with Ruby Projects that use both liquid and ymlß
 
     - skill: CSS
