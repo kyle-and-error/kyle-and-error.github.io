@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.10'
+
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
 gem "jekyll-assets", group: :jekyll_plugins
