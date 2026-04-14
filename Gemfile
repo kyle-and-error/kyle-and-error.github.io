@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.0.10'
-
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
 gem "jekyll-assets", group: :jekyll_plugins
@@ -15,4 +13,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gemspec
-
