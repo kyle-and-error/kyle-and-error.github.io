@@ -1,5 +1,5 @@
 - layout: left
-  comapny: Company Name
+  company: Level Fitness LLC
   image: files/level.png
   jobs:
     - title: IT Manager
@@ -27,7 +27,8 @@
     My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
-  title: Freelance Tutor
+  title: Tutor
+  sub_title: Freelance
   caption: March 2018 - Present
   description: | # this will include new lines to allow paragraphs
     I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
