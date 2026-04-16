@@ -4,3 +4,10 @@
   link_text: Project Website
   description: | # this will include new lines to allow paragraphs
     You're looking at the results of the project right now!
+
+- layout: top-middle
+  title: Balatro Texture Mod (Gojo for Throwback)
+  link: https://github.com/kyle-and-error/Throwback_Gojo_Malverk
+  link_text: Project Repository
+  description: |
+    A simple mod I created to learn the basics of Lua. It replaces the texture of 1 file in Balatro.
