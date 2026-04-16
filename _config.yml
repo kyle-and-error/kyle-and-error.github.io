@@ -7,10 +7,10 @@ version: 3
 
 # Personal info
 name: Kyle Cho
-pronouns: He/they
-title: Web App Developer and Amateur Game Designer
+pronouns: He/Him
+title: IT Technician, Web App Developer, and Personal Trainer
 email: kylescho99@gmail.com
-email2: kcho@elon.edu
+email2: kcho13@student.umgc.edu
 phone: +1(240) 888-9685
 website: www.kyle-and-error.github.io
 
@@ -51,7 +51,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: files/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Kyle and I’m a Computer Science student at Elon University and a Le Wagon Alumni (Batch #269). I plan to graduate from Elon in 2023. I'm extremely interested in the creative potential of programming in both games and applications. I’m proficient in various programming languages, including Python, GameMakerStudio, and Ruby. I am a freelance tutor (Hire me!) and former swim coach. I am currently looking for employment!
+  Hi, my name is Kyle and I’m a Computer Science Major (BS) currently at UMGC. I'm extremely interested in the creative potential of programming in both games and applications. I’m proficient in various programming languages, including Python, GameMakerStudio, Java, and Ruby. I am a freelance tutor, personal trainer, and IT Technician. Thank you for viewing my resume.
 content:
 
   - title: Education # Title for the section

@@ -2,7 +2,7 @@
   skills: # Your skills
     - skill: JavaScript
       layout: left
-      certificate: files/Certifications/JavaScript-cert.png # Link or image file if you have a certification
+      certificate: files/Certifications/Javascript-cert.png # Link or image file if you have a certification
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
@@ -14,7 +14,7 @@
 
     - skill: HTML
       layout: left
-      certificate: files/Certifications/html-cert.png
+      certificate: files/Certifications/HTML-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
 
@@ -40,13 +40,17 @@
   skills:
     - skill: Python
 
-    - skill: Ruby on Rails
+    - skill: Lua
 
-    - skill: Relational Database Management
+    - skill: Ruby on Rails
+      description: |
+       - Familiar with Ruby Projects that use both liquid and ymlß
 
     - skill: CSS
 
     - skill: Java
+
+    - skill: Relational Database Management
 
     - skill: mongoDB
 
@@ -56,15 +60,16 @@
 
     - skill: Git, Bash and ZSH/Oh My ZSH
 
-    - skill: Liquid
-
-- title: Skills I'm learning
+- title: Other skills
   skills:
     - skill: Vue.js
+    - skill: Unity
+    - skill: Unreal
+    - skill: RPG Maker
 
 - title: Soft Skills
   skills:
-    - skill: Good verbal and written communicator
+    - skill: Excellent verbal and written communicator
 
     - skill: Trouble Shooting/Problem solver
 
@@ -80,6 +85,6 @@
 
     - skill: Research Skills
       description: |
-        - I know the best resources
+        - I know the best and most relevant sources without relying on AI
         - I keep up to date with relevant communities and forums
         

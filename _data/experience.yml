@@ -1,29 +1,34 @@
 - layout: left
-  title: Receptionist and Sales
-  sub_title: Level A Unique Fitness Club
+  company: Level Fitness LLC
   image: files/level.png
-  caption: September 2021 - April 2022
-  description: | # this will include new lines to allow paragraphs
-    At Level, I navigate MindBody in order to organize schedules for our Personal Trainers and check in our members. Receptionists at Level also function as a sort of sales associate. I show prospective members our facilities and talk them through any possible training they may go through with any of our trainers. 
+  jobs:
+    - title: IT Manager
+      dates: April 2022 - Nov 2025
+    - title: Senior Member Services Associate
+      dates: September 2021 - April 2022
+  description : | # this will include new lines to allow paragraphs
+    As a Member Services Associate, and eventually a Senior Associate at Level, I navigated gym management software in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers. description: | # this will include new lines to allow paragraphs
+    After some time as a Member Services Associate, I was promoted to IT Manager to provide more technical support as LEVEL expanded their services. I provided virtual class support, maintained and upgraded our gym's networks, network hardware, smart tablets, and smart gym equipment. 
 
 - layout: left
-  title: IT Manager
-  sub_title: Level A Unique Fitness Club
-  image: files/level.png
-  caption: April 2022 - Present
-  description: | # this will include new lines to allow paragraphs
-    While working as a receptionist, a need arose for IT support. I provide support and maintain our gym's smart equipment and network equipment, ranging from software updates to managing the firewall.
+  title: Part Owner, Accounting and Inventory Manager
+  sub_title: TTREX LLC
+  image: files/ttrex.png
+  caption: January 2024 - Present
+  description : | # this will include new lines to allow paragraphs
+    At TTREX, I assist in tracking sales, revenue, trends, and managing inventory. Furthermore, I assist in accounting duties to keep track of our expenses and profits to provide clean reports every year.
 
 - layout: left
   title: Cashier/Server
   sub_title: CHIKO DC
   image: files/chiko.jpeg
-  caption: April 2021 - Present
+  caption: April 2021 - September 2021
   description: | # this will include new lines to allow paragraphs
     My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
-  title: Freelance Tutor
+  title: Tutor
+  sub_title: Freelance
   caption: March 2018 - Present
   description: | # this will include new lines to allow paragraphs
     I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
