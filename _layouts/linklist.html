@@ -1,67 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: "Links" }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  <!-- Reuse theme styles if available -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+{%- include head.html -%}
 
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      background: #0f0f0f;
-      color: #ffffff;
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .linklist-container {
-      max-width: 500px;
-      margin: 0 auto;
-    }
-
-    .linklist-title {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-
-    .linklist-subtitle {
-      opacity: 0.7;
-      margin-bottom: 30px;
-    }
-
-    .link-item {
-      display: block;
-      background: #1f1f1f;
-      color: white;
-      text-decoration: none;
-      padding: 14px;
-      margin: 10px 0;
-      border-radius: 12px;
-      transition: transform 0.1s ease, background 0.2s ease;
-    }
-
-    .link-item:hover {
-      background: #2a2a2a;
-      transform: scale(1.02);
-    }
-
-    .link-icon {
-      margin-right: 8px;
-    }
-  </style>
-</head>
-
-<body>
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
   <div class="linklist-container">
     
     <div class="linklist-title">
       {{ site.data.links.title | default: site.title }}
     </div>
 
-    <div class="linktree-subtitle">
+    <div class="linklist-subtitle">
       {{ site.data.links.description }}
     </div>
 
