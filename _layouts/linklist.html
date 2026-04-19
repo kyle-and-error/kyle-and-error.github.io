@@ -1,483 +1,83 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: "Links" }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kyle Cho | Web App Developer and Amateur Game Designer</title><!-- Begin Jekyll SEO tag v2.7.1 -->
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Web App Developer and Amateur Game Designer" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Web App Developer and Amateur Game Designer" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Web App Developer and Amateur Game Designer" />
-<script type="application/ld+json">
-{"@type":"WebSite","name":"Web App Developer and Amateur Game Designer","url":"http://localhost:4000/","headline":"Web App Developer and Amateur Game Designer","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/files/favicon.ico"></head>
-<body class="dark"><div class="container header-contianer">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
-      <h1>Kyle Cho</h1>
-      <h2>Web App Developer and Amateur Game Designer</h2><p> Pronouns: He/they (No particular preference)</p></div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <ul class="icons no-print"><li>
-            <a target="_blank" href="https://github.com/kyle-and-error" class="button button--sacnite button--round-l">
-              <i class="fab fa-github" title="Github link"></i>
-            </a>
-          </li><li>
-            <a target="_blank" href="https://www.instagram.com/kyle_and_error" class="button button--sacnite button--round-l">
-              <i class="fab fa-instagram" title="Instagram link"></i>
-            </a>
-          </li><li>
-            <a target="_blank" href="https://www.linkedin.com/in/kyle-cho-2000" class="button button--sacnite button--round-l">
-              <i class="fab fa-linkedin" title="Linkedin link"></i>
-            </a>
-          </li>
-          <li>
-            
-<a href="https://torre.co/en/kcho" target="_blank" class="button button--sacnite button--round-l">
-              <i class="fas fa-globe" title="torre.com"></i>
-            </a>
-          </li>
+  <!-- Reuse theme styles if available -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .linklist-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .linklist-title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .linklist-subtitle {
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .link-item {
+      display: block;
+      background: #1f1f1f;
+      color: white;
+      text-decoration: none;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 12px;
+      transition: transform 0.1s ease, background 0.2s ease;
+    }
+
+    .link-item:hover {
+      background: #2a2a2a;
+      transform: scale(1.02);
+    }
+
+    .link-icon {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="linklist-container">
+    
+    <div class="linklist-title">
+      {{ site.data.links.title | default: site.title }}
+    </div>
+
+    <div class="linktree-subtitle">
+      {{ site.data.links.description }}
+    </div>
+
+    {% for link in site.data.links.links %}
+      <a class="link-item" href="{{ link.url }}" target="_blank" rel="noopener">
         
-      </ul><p>
-          Email: <a href="mailto:kylescho99@gmail.com" target="_blank">kylescho99@gmail.com</a>
-        </p><p>
-          Secondary Email: <a href="mailto:kcho@elon.edu" target="_blank">kcho@elon.edu</a>
-        </p><p>
-          Phone: +1(240) 888-9685
-        </p><p>
-          Web: 
-<a href="//www.kyle-and-error.github.io" target="_blank" class="">www.kyle-and-error.github.io</a>
-        </p></div>
-  </div>
-</div>
-<main class="page-content" aria-label="Content">
-
-    <div class="wrapper"><div class="container intro-container">
-  <h3>About Me</h3>
-  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url(/files/profile.jpg)"></span>
-      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
-      <p>Hi, my name is Kyle and I’m a Computer Science student at Elon University and a Le Wagon Alumni (Batch #269). I plan to graduate from Elon in 2023. I’m extremely interested in the creative potential of programming in both games and applications. I’m proficient in various programming languages, including Python, GameMakerStudio, and Ruby. I am a freelance tutor (Hire me!) and former swim coach. I am currently looking for employment!</p>
-
-    </div>
-  </div>
-</div>
-
-        <div class="container Education-container">
-
-          <h3>Education</h3>
-		
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="org-img profile-img" style="background-image: url(/files/mc.png)"></span>
-    	</div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-
-      		<h4>Montgomery College</h4><p>Montgomery County, MD |&nbsp;August 2021 - Current</p><p class="no-print aditional-links">
-        	
-        	</p>
-
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p class="quote">Montgomery College is Maryland's premier community college, serving more than 50000 students each year through credit and noncredit programs.
-</p></div>
-</div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="org-img profile-img" style="background-image: url(/files/elon.jpg)"></span>
-    	</div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-
-      		<h4>Elon University</h4><p>Elon, NC |&nbsp;2018 - 2020</p><p class="no-print aditional-links">
-        	
-        	</p>
-
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p class="quote">Elon University is a mid-sized private university in North Carolina that is nationally recognized as the premier student-centered environment for experiential learning.
-</p></div>
-</div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="org-img profile-img" style="background-image: url(/files/lewagon.png)"></span>
-    	</div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-
-      		<h4>LeWagon</h4><p><b>Full-Stack Web Development Bootcamp</b></p><p>Oslo, Norway |&nbsp;August 2019</p><p class="no-print aditional-links">
-        	
-        	</p>
-
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p class="quote">Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers. The bootcamp teaches students how to build a web application, from database management, to backend, to frontend design.
-  
-</p></div>
-</div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-    		<span class="org-img profile-img" style="background-image: url(/files/whitman.png)"></span>
-    	</div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-
-      		<h4>Walt Whitman High School</h4><p><b>High School Diploma</b></p><p>Bethesda, MD |&nbsp;2014 - 2018</p><p class="no-print aditional-links">
-        	
-        	</p>
-
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p class="quote">Walt Whitman High School is a public high school in Bethesda, Maryland, United States. The school is named in honor of the American poet, Walt Whitman. The school serves grades 9-12 for the Montgomery County Public Schools.
-</p></div>
-</div>
-
-    	
-    </div>
-        <div class="container Experience-container">
-
-          <h3>Experience</h3>
-		
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="org-img profile-img" style="background-image: url(/files/level.png)"></span>
-      </div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>Receptionist and Sales</h4><p><b>Level A Unique Fitness Club</b></p><p>September 2021 - April 2022</p><p class="no-print aditional-links">
+        {% if link.icon %}
+          <span class="link-icon">
+            <i class="{{ link.icon }}"></i>
+          </span>
+        {% endif %}
         
-      </p>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p>At Level, I navigate MindBody in order to organize schedules for our Personal Trainers and check in our members. Receptionists at Level also function as a sort of sales associate. I show prospective members our facilities and talk them through any possible training they may go through with any of our trainers.</p>
-</div>
-  </div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="org-img profile-img" style="background-image: url(/files/level.png)"></span>
-      </div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>IT Manager</h4><p><b>Level A Unique Fitness Club</b></p><p>April 2022 - Present</p><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p>While working as a receptionist, a need arose for IT support. I provide support and maintain our gym’s smart equipment and network equipment, ranging from software updates to managing the firewall.</p>
-</div>
-  </div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="org-img profile-img" style="background-image: url(/files/chiko.jpeg)"></span>
-      </div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>Cashier/Server</h4><p><b>CHIKO DC</b></p><p>April 2021 - Present</p><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p>My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.</p>
-</div>
-  </div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>Freelance Tutor</h4><p>March 2018 - Present</p><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p>I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.</p>
-</div>
-  </div>
-
-    	
-    		<div class="row clearfix layout layout-left"><div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details">
-        <span class="org-img profile-img" style="background-image: url(/files/cudas.jpg)"></span>
-      </div><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      <h4>Assistant Swim Coach</h4><p><b>Carderock Springs Swim and Tennis Club</b></p><p>June 2017 - May 2018</p><p class="no-print aditional-links">
-        
-      </p>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item"><p>I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercizes.</p>
-</div>
-  </div>
-
-    	
-    </div>
-        <div class="container Skills-container">
-
-          <h3>Skills</h3>
-		
-    	
-    		</div>
-<div class="container Skill-container">
-  <h4>Certified Skills</h4>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"><img id="bullet-image" src="/files/codecademy.png" ></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>JavaScript</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      <img id="cert" src="/files/certifications/JavaScript-cert.png" ></img>
-    </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"><img id="bullet-image" src="/files/codecademy.png" ></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Ruby</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      <img id="cert" src="/files/certifications/ruby-cert.png" ></img>
-    </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"><img id="bullet-image" src="/files/codecademy.png" ></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>HTML</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      <img id="cert" src="/files/certifications/html-cert.png" ></img>
-    </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"><img id="bullet-image" src="/files/codecademy.png" ></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>CSS</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      <img id="cert" src="/files/certifications/CSS-cert.png" ></img>
-    </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"><img id="bullet-image" src="/files/lewagon.png" ></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Full-Stack Web Development</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 item">
-      <img id="cert" src="/files/certifications/fullstack-cert.png" ></img>
-    </div></div>
-
-  
-
-
-    	
-    		</div>
-<div class="container Skill-container">
-  <h4>Extremely Proficient Programming skills</h4>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Python</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Ruby on Rails</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Relational Database Management</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>CSS</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Java</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>mongoDB</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>MySQL</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>GameMaker Studio 2</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Git, Bash and ZSH/Oh My ZSH</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Liquid</h2>
-  </div></div>
-
-  
-
-
-    	
-    		</div>
-<div class="container Skill-container">
-  <h4>Skills I'm learning</h4>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Vue.js</h2>
-  </div></div>
-
-  
-
-
-    	
-    		</div>
-<div class="container Skill-container">
-  <h4>Soft Skills</h4>
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Good verbal and written communicator</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Trouble Shooting/Problem solver</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Adaptable and flexible</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Creative</h2>
-  </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Cooperative/Good teamwork</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 details">
-      <ul>
-  <li>Open to criticism</li>
-  <li>Good listener and learner</li>
-  <li>Good teacher to a range of ages</li>
-</ul>
-
-    </div></div>
-
-  
-    <div class="row clearfix layout layout-left">
-  <div class="col-xs-12 col-sm-4 col-md-1 col-print-1 details"></div>
-  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12 details">
-    <h2>Research Skills</h2>
-  </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12 details">
-      <ul>
-  <li>I know the best resources</li>
-  <li>I keep up to date with relevant communities and forums</li>
-</ul>
-
-    </div></div>
-
-  
-
-
-    	
-    </div>
-        <div class="container Projects-container">
-
-          <h3>Projects</h3>
-		
-    	
-    		<div class="row clearfix layout layout-top-middle"><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      	<h4>UniHome</h4><p>A Multi-platform SmartHome application that allows you to integrate multiple voice assistants and devices to achieve true cross-platform SmartHome integration.</p>
-<p class="no-print aditional-links">
-        	
-        </p>
-
-    </div>
-
-</div>
-
-    	
-    		<div class="row clearfix layout layout-top-middle"><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      	<h4>Untitled RPG</h4><p>This game is currently being developed in Game Maker Studio 2</p>
-<p class="no-print aditional-links">
-        	
-        </p>
-
-    </div>
-
-</div>
-
-    	
-    		<div class="row clearfix layout layout-top-middle"><div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-      	<h4>Resume Website</h4><p>You’re looking at the results of the project right now!</p>
-
-<a href="https://github.com/kyle-and-error/kyle-and-error.github.io" target="_blank" class="link">Project Website</a><p class="no-print aditional-links">
-        	
-        </p>
-
-    </div>
-
-</div>
-
-    	
-    </div>
-        <div class="container A-Little-More-About-Me-container">
-
-          <h3>A Little More About Me</h3>
-		<div class="row clearfix">
-  <div class="col-md-12">
-    <p>Alongside my interests in game and web development, some of my other interests and hobbies are:</p>
-<ul>
-  <li>Ultimate Frisbee</li>
-  <li>Gaming</li>
-  <li>Working out</li>
-</ul>
+        {{ link.name }}
+      </a>
+    {% endfor %}
 
   </div>
-</div>
-
-  	</div></div>
-
-  </main><div class="container footer-container">
-  <p>
-    Kyle Cho -
-    <a href="mailto:kylescho99@gmail.com" target="_blank">kylescho99@gmail.com</a>&nbsp;- (240) 888-9685 &nbsp;| References on request</p><p>This site was built using Jekyll and Liquid, based on Sproogen’s <a href="github.com/sproogen/modern-resume-theme" title="modern-resume-theme">modern-resume-theme</a> with heavy personalization.</p>
-</div>
 </body>
-
 </html>
