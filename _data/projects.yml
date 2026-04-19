@@ -7,7 +7,7 @@
 
 - layout: top-middle
   title: Inventory and Sales Manager
-  link: https://github.com/kyle-and-error/con-artist-inventory-tracker
+  link: https://github.com/kyle-and-error/artist-alley-inventory-manager
   link_text: Project Repository
   description: |
     A Google Sheets template built for Artist Alley merchants and similar creatives with the goal of becoming a full fledged management web-app.
