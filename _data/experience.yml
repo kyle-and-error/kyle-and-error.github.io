@@ -18,13 +18,13 @@
   description : | # this will include new lines to allow paragraphs
     At TTREX, I assist in tracking sales, revenue, trends, and managing inventory. Furthermore, I assist in accounting duties to keep track of our expenses and profits to provide clean reports every year.
 
-- layout: left
-  title: Cashier/Server
-  sub_title: CHIKO DC
-  image: files/chiko.jpeg
-  caption: April 2021 - September 2021
-  description: | # this will include new lines to allow paragraphs
-    My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
+# - layout: left
+  # title: Cashier/Server
+  # sub_title: CHIKO DC
+  # image: files/chiko.jpeg
+  # caption: April 2021 - September 2021
+  # description: | # this will include new lines to allow paragraphs
+    # My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
 - layout: left
   title: Tutor

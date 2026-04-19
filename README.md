@@ -49,7 +49,6 @@ When dark mode is `never` the site will never be shown in the dark theme
 A list of all your education, each education will follow this format
 ```
 - layout: left (options: left, right, top, top-right, top-middle)
-  name: Institution name
   dates: Date Range (eg. 2016 - 2019)
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >
