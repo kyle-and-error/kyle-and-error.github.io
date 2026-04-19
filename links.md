@@ -1,6 +1,6 @@
 ---
 layout: linklist
-title:hello
+title: hello
 description: helloworld
 permalink: /links/
 ---
