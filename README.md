@@ -2,9 +2,9 @@
 
 A resume built with the help of [sproogden's modern resume theme](https://github.com/sproogen/modern-resume-theme). I used their project to help construct my own resume website. 
 
-Feel free to use my project as a template. I essentially combined sproogden's [V1 (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md) and [V2 (Version 2 Readme)](https://github.com/sproogen/modern-resume-theme/blob/master/README.md), as well as added some features of my own like a place for your pronouns.
+Feel free to use my project as a template. I essentially combined sproogen's [V1 (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md) and [V2 (Version 2 Readme)](https://github.com/sproogen/modern-resume-theme/blob/master/README.md), as well as added some features of my own like a place for your pronouns. Please consider supporting me [here](https://ko-fi.com/kyleanderror).
 
-NOTE: PARTS OF THIS README ARE LIFTED FROM SPROOGDEN's README. PLEASE SUPPORT THEM [HERE](https://buymeacoff.ee/vJ6HfLu).
+NOTE: Parts of this Readme are copied from SPROOGEN's README. Please consider supporting him [here](https://buymeacoff.ee/vJ6HfLu).
 
 ----
 This guide is here to help you set up 
@@ -49,7 +49,6 @@ When dark mode is `never` the site will never be shown in the dark theme
 A list of all your education, each education will follow this format
 ```
 - layout: left (options: left, right, top, top-right, top-middle)
-  name: Institution name
   dates: Date Range (eg. 2016 - 2019)
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >

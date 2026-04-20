@@ -1,7 +1,7 @@
 - layout: left
   title: University of Maryland Global Campus
   image: files/umgc.png
-  caption: Winter 2023 - Current
+  caption: 'Computer Science BS' 
   location: Adelphi, MD
   quote: >
    The University of Maryland Global Campus is a public university in Adelphi, Maryland. It is the largest institution in the University System of Maryland.
@@ -27,12 +27,12 @@
   quote: >
     Change your life, learn to code. Le Wagon is ranked as the world's best coding bootcamp and has enabled thousands of people to change their careers. The bootcamp teaches students how to build a web application, from database management, to backend, to frontend design.
       
-- layout: left
-  title: Walt Whitman High School
-  image: files/whitman.png
-  caption: 2014 - 2018
-  sub_title: High School Diploma
-#  certificate: true
-  location: Bethesda, MD
-  quote: >
-    Walt Whitman High School is a public high school in Bethesda, Maryland, United States. The school is named in honor of the American poet, Walt Whitman. The school serves grades 9-12 for the Montgomery County Public Schools.
+# - layout: left
+  # title: Walt Whitman High School
+  # image: files/whitman.png
+  # caption: 2014 - 2018
+  # sub_title: High School Diploma
+  # certificate: true
+  # location: Bethesda, MD
+  # quote: >
+    # Walt Whitman High School is a public high school in Bethesda, Maryland, United States. The school is named in honor of the American poet, Walt Whitman. The school serves grades 9-12 for the Montgomery County Public Schools.

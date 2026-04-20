@@ -35,8 +35,11 @@ linkedin_username: kyle-cho-2000
 # Additional icon links
 additional_links:
 - title: torre.com
-  icon: fas fa-globe
+  icon: fas fa-text-height
   url: https://torre.co/en/kcho
+- title: kofi.com
+  icon: fas fa-coffee
+  url: https://ko-fi.com/kyleanderror
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
