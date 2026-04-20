@@ -2,13 +2,14 @@
   company: Level Fitness LLC
   image: files/level.png
   jobs:
-    - title: IT Manager
+    - title: IT and Web Systems Manager
       dates: April 2022 - Nov 2025
     - title: Senior Member Services Associate
       dates: September 2021 - April 2022
   description : | # this will include new lines to allow paragraphs
-    As a Member Services Associate, and eventually a Senior Associate at Level, I navigated gym management software in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers.
-    After some time as a Member Services Associate, I was promoted to IT Manager to provide more technical support as LEVEL expanded their services. I provided virtual class support, maintained and upgraded our gym's networks, network hardware, smart tablets, and smart gym equipment. 
+     As LEVEL's IT Manager, I provided technical support to both LEVEL employees and customers, increasingly so as LEVEL expanded their remote services. I provided virtual class support, maintained and upgraded our gym's LAN and WLAN, network hardware, smart tablets, and smart gym equipment. 
+     As the Web systems manager, I managed LEVEL's Webware website through their interface and creating my own custom Liquid and HTML code, creating a viewable and easily readable experience for our clients, while also managing the websites backend when fitness staff wanted to upload schedule changes or blog updates.
+     As a Member Services Associate, and eventually a Senior Associate at Level, I navigated Mindbody, the gym management software, in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers.
 
 - layout: left
   title: Part Owner, Accounting and Inventory Manager
