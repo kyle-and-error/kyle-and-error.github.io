@@ -19,19 +19,20 @@
   description : | # this will include new lines to allow paragraphs
     At TTREX, I assist in tracking sales, revenue, trends, and managing inventory. Furthermore, I assist in accounting duties to keep track of our expenses and profits to provide clean reports every year.
 
-# layout: left
-  # title: Custom PC Builder
-  # sub_title: Freelance
-  # caption: December 2020 - Present
-  # description: | # this will include new lines to allow paragraphs
-    # 
+- layout: left
+  title: IT Technician & PC Builder
+  sub_title: Freelance
+  caption: December 2020 - Present
+  description: | # this will include new lines to allow paragraphs
+    As an independent PC builder and IT support technician, I provided hands-on technical services to local clients, growing from a personal hobby into a trusted neighborhood resource. I build and upgrade custom PCs, diagnose and resolve hardware and software issues, and advise clients on cost-effective component selection based on their needs. 
+    I have installed and configured smart home devices, including security cameras, video doorbells, smart TVs, and accessibility-focused assistive technologies for hearing-impaired users. As of 2026, I have serviced over 10 different homes.
 
-# layout: left
-  # title: Tutor
-  # sub_title: Freelance
-  # caption: March 2018 - Present
-  # description: | # this will include new lines to allow paragraphs
-    # I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
+- layout: left
+  title: Tutor
+  sub_title: Freelance
+  caption: March 2018 - Present
+  description: | # this will include new lines to allow paragraphs
+    I have tutored many people in programming languages like Java, frameworks like Ruby on Rails, or more general subjects like math, science, and english for high schoolers and college students.
 
 - layout: left
   title: Cashier/Server
@@ -41,10 +42,10 @@
   description: | # this will include new lines to allow paragraphs
     My responsibilities as a Front of House employee included assembling and expediting take out and delivery orders (through 3rd party services like Uber Eats and DoorDash). When CHIKO opened for dine-in, I served dine-in customers.
 
-# - layout: left
-  # title: Assistant Swim Coach
-  # sub_title: Carderock Springs Swim and Tennis Club
-  # image: files/cudas.jpg
-  # caption: June 2017 - May 2018
-  # description: | # this will include new lines to allow paragraphs
-    # I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercises.  
+- layout: left
+  title: Assistant Swim Coach
+  sub_title: Carderock Springs Swim and Tennis Club
+  image: files/cudas.jpg
+  caption: June 2017 - May 2018
+  description: | # this will include new lines to allow paragraphs
+    I taught children from ages 3+ how to swim and supervised them as they demonstrated skills in the pool. I also coached older children and teenagers from 8-16 to swim competitively by using intensive swim workouts as well as dry-land exercises.  
