@@ -1,31 +1,47 @@
 - layout: left
-  company: Level Fitness LLC
+  title: IT & Web Systems Manager
+  sub_title: Level Fitness LLC
   image: files/level.png
-  jobs:
-    - title: IT and Web Systems Manager
-      dates: April 2022 - Dec 2025
-    - title: Senior Member Services Associate
-      dates: September 2021 - Nov 2025
-  description : | # this will include new lines to allow paragraphs
-     As LEVEL's IT Manager, I provided technical support to both LEVEL employees and customers, increasingly so as LEVEL expanded their remote services. I provided virtual class support, maintained and upgraded our gym's LAN and WLAN, network hardware, smart tablets, and smart gym equipment. 
-     As the Web systems manager, I managed LEVEL's Webware website through their interface and creating my own custom Liquid and HTML code, creating a viewable and easily readable experience for our clients, while also managing the websites backend when fitness staff wanted to upload schedule changes or blog updates.
-     As a Member Services Associate, and eventually a Senior Associate at Level, I navigated Mindbody, the gym management software, in order to organize schedules for our Personal Trainers and check in our members. I showed prospective members our facilities and talked them through any possible training they may go through with any of our trainers.
+  caption: April 2022 - Dec 2025
+  description: | # this will include new lines to allow paragraphs
+     - Managed internal IT infrastructure including LAN/WLAN networks, office hardware, and connected fitness equipment, ensuring consistent uptime for both staff operations and member-facing systems.
+     - Administered and maintained the company website using Webware CMS, implementing custom HTML/Liquid enhancements and managing employee profiles, content structure, and publishing workflows.
+     - Supported backend content operations on the website, enabling staff to efficiently update class schedules, announcements, and blog content without technical bottlenecks
+     - Diagnosed and resolved persistent network instability by redesigning Wi-Fi architecture, including segmentation of staff and guest networks and correction of foundational IP configuration issues, significantly improving reliability across the facility.
+     - Led full IT lifecycle management including system upgrades, cybersecurity awareness training, disaster recovery (hardware/data salvage and migration), machine replacement, and coordinated shutdown of systems during facility closure.
 
 - layout: left
-  title: Part Owner, Accounting and Inventory Manager
+  title: Senior Member Services Associate
+  sub_title: Level Fitness LLC
+  image: files/level.png
+  caption: September 2021 - Nov 2025
+  description: | # this will include new lines to allow paragraphs
+     - Supported both front desk operations and cross-department coordination across membership, training, and facility workflows.
+     - Managed member check-ins, class scheduling, room assignments, and personal training logistics using Mindbody, ensuring smooth daily operations and accurate scheduling alignment between clients and staff.
+     - Conducted onboarding tours and membership consultations, helping translate client fitness goals into appropriate training packages and service recommendations.
+     - Supported internal operations including staff onboarding and training, shift scheduling coordination, and day-to-day communication between team members and management.
+     - Maintained member records and feedback tracking systems, helping identify operational issues and improve service flow and retention decision-making.
+
+- layout: left
+  title: Part Owner - Accounting and Inventory Manager
   sub_title: TTREX LLC
   image: files/ttrex.png
   caption: January 2024 - Present
   description : | # this will include new lines to allow paragraphs
-    At TTREX, I track and analyze sales, revenue, and inventory. Tracking the performance of our SKUs across 3 different platforms has allowed TTREX to trim over 30 sub-par performing SKUs and justify bulk orders for other designs, leading to a 50% decrease in manufacturing overhead for those items.
+     - Managed end-to-end sales tracking, revenue analysis, and inventory reconciliation across three e-commerce and in-person sales platforms, ensuring accurate visibility into SKU-level performance and profitability.
+     - Analyzed product performance trends to identify underperforming inventory, leading to the removal of 30+ low-ROI SKUs and improved operational focus on high-margin products.
+     - Developed SKU performance reporting workflows that informed purchasing decisions and justified bulk production runs for high-performing designs.
+     - Optimized inventory strategy and production planning, contributing to an estimated 50% reduction in manufacturing overhead for targeted product lines through data-driven SKU consolidation.
 
 - layout: left
   title: IT Technician & PC Builder
   sub_title: Freelance
   caption: December 2020 - Present
   description: | # this will include new lines to allow paragraphs
-    As an independent PC builder and IT support technician, I provided hands-on technical services to local clients, growing from a personal hobby into a trusted neighborhood resource. I build and upgrade custom PCs, diagnose and resolve hardware and software issues, and advise clients on cost-effective component selection based on their needs. 
-    As of 2026, I have built and service 5 gaming PCs, installed and configured smart home devices, security cameras, video doorbells, smart TVs, and accessibility-focused assistive technologies for hearing-impaired users. 
+    As an independent PC builder and IT support technician, I provided hands-on technical services to local clients, growing from a personal hobby into a trusted neighborhood resource. 
+     - Designed, built, and upgraded custom desktop systems tailored to client needs, balancing budget constraints against component performance requirements
+     - Diagnosed and resolved hardware and software issues across consumer PC systems, improving system stability, software compatibility, performance, and usability for non-technical users.
+     - Installed and configured smart home ecosystems, including security cameras, video doorbells, smart TVs, and accessibility-focused assistive devices for hearing-impaired users.
 
 - layout: left
   title: Tutor
@@ -57,3 +73,4 @@
      - Supervised and ensured safety of beginner swimmers during active pool sessions, maintaining constant vigilance and adherence to safety protocols in high-density group settings.
      - Coached competitive swimmers ages 8–16 using structured training plans including interval swim sets, endurance conditioning, and technique refinement drills tailored to performance improvement.
      - Integrated dry-land training exercises (mobility, strength, and conditioning work) to support in-water performance and injury prevention for youth competitive athletes.
+     - Provided supplemental private instruction and technique refinement sessions for competitive swim team athletes outside of scheduled practices.
