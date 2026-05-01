@@ -23,15 +23,16 @@
      - Maintained member records and feedback tracking systems, helping identify operational issues and improve service flow and retention decision-making.
 
 - layout: left
-  title: Part Owner - Accounting and Inventory Manager
+  title: Part Owner - Systems Developer
   sub_title: TTREX LLC
   image: files/ttrex.png
   caption: January 2024 - Present
   description : | # this will include new lines to allow paragraphs
-     - Managed end-to-end sales tracking, revenue analysis, and inventory reconciliation across three e-commerce and in-person sales platforms, ensuring accurate visibility into SKU-level performance and profitability.
-     - Analyzed product performance trends to identify underperforming inventory, leading to the removal of 30+ low-ROI SKUs and improved operational focus on high-margin products.
+     - Architected and developed a custom backend inventory and sales tracking system integrating e-commerce platforms (TikTok Shop, Etsy, Shopify) and POS systems (Square) via API ingestion and data normalization pipelines.
+     - Designed a scalable SKU generation framework optimized for human readability and cross-platform consistency, enabling reliable tracking across all sales channels.
+     - Built centralized financial reporting systems aggregating revenue, cost, and profitability data, reducing manual accounting overhead and improving decision-making speed.
+     - Engineered workflows for inventory reconciliation and SKU-level analytics, allowing us to identify underperforming inventory, leading to the removal of 30+ low-ROI SKUs and improved operational focus on high-margin products.
      - Developed SKU performance reporting workflows that informed purchasing decisions and justified bulk production runs for high-performing designs.
-     - Optimized inventory strategy and production planning, contributing to an estimated 50% reduction in manufacturing overhead for targeted product lines through data-driven SKU consolidation.
 
 - layout: left
   title: IT Technician & PC Builder
