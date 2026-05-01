@@ -1,5 +1,17 @@
 - title: Certified Skills
   skills: # Your skills
+    - skill: Full-Stack Web Development
+      organization: LeWagon
+      org-image: files/lewagon.png
+      certificate: files/Certifications/fullstack-cert.png
+      # description: | # this will include new lines to allow paragraphs
+      # Skills I learned as a part of this certification that I am extremely proficient in: 
+      #  - Ruby on Rails
+      #  - HTML
+      #  - CSS
+      #  - Relational Databases and Database Management
+      #  - mongoDB
+    
     - skill: JavaScript
       layout: left
       certificate: files/Certifications/Javascript-cert.png # Link or image file if you have a certification
@@ -23,18 +35,6 @@
       certificate: files/Certifications/CSS-cert.png
       organization: Codecademy # Organization that issued the certification
       org-image: files/codecademy.png # Image of the organization
-
-    - skill: Full-Stack Web Development
-      organization: LeWagon
-      org-image: files/lewagon.png
-      certificate: files/Certifications/fullstack-cert.png
-      # description: | # this will include new lines to allow paragraphs
-      # Skills I learned as a part of this certification that I am extremely proficient in: 
-      #  - Ruby on Rails
-      #  - HTML
-      #  - CSS
-      #  - Relational Databases and Database Management
-      #  - mongoDB
 
 - title: Extremely Proficient Programming skills # Title of subsection
   skills:
